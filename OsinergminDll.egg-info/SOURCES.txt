@@ -1,5 +1,0 @@
-setup.py
-OsinergminDll.egg-info/PKG-INFO
-OsinergminDll.egg-info/SOURCES.txt
-OsinergminDll.egg-info/dependency_links.txt
-OsinergminDll.egg-info/top_level.txt
