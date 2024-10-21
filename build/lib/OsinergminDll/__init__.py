@@ -160,3 +160,5 @@ def prueba():
     else:
         #print("Error en la solicitud:", response.status_code, response.content)
         resultado = f"Error en la solicitud: {response.status_code}, {response.content}"
+
+    return resultado
