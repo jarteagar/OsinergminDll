@@ -28,7 +28,7 @@ jobs:
           python setup.py sdist bdist_wheel
 
       - name: Upload wheel artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: osinergmindll-wheel
           path: dist/*.whl
