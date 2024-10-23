@@ -1,6 +1,9 @@
 import requests
 import xml.etree.ElementTree as ET
 
+def OSVersion():
+    return 1.0
+
 def OSPriceService(cHttps,cClave,cLogin,cProd,mData):
 
     # URL del webservice
