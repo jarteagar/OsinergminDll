@@ -1,13 +1,24 @@
 import requests
 import xml.etree.ElementTree as ET
+from datetime import datetime
 
 def OSVersion():
-    return 1.1
+    nota ='''Notas de la version***********************************
+        en ultimo parametro "nOpcion" tiene 2 valores:
+        0 = envia el XML 
+        1 = muestra el xm
 
-def OSPriceService(cHttps,cClave,cLogin,cProd,mData):
+        el 5to parametro "mData" es un diccionario, puede tener
+        uno o mas registros, se recomienda enviar sólo un registro
+        a fin de obtener el error de cada producto al ser enviado
+
+        '''
+    return 1.2
+
+def OSPriceService(cHttps,cClave,cLogin,cProd,mData,nOpcion):
 
     # URL del webservice
-    #cHttps = "https://scopwsdesa.osinergmin.gob.pe:443/scopws/diensten/PriceService"
+    #cHttps = "https://scopwsdesa.osinergmin.gob.pe:443/scopws/diensten/PriceService" entorno: prueba o desarrollo
     #cClave = "87654321"
     #cLogin = "3345400"
 
@@ -198,30 +209,42 @@ def OSPriceService(cHttps,cClave,cLogin,cProd,mData):
 
     # Unir las partes del XML
     xml = XmlHeader + XmlBodyDetalle + XmlFooter
+    resultado =""
 
     # Definir los encabezados
     headers = {
         'Content-Type': 'application/soap+xml',  # Especifica que el contenido es XML
         'SOAPAction': 'http://www.osinergmin.gob.pe/PriceService/registraPriceLiquidos',
     }
-    resultado = xml
-    """
-    # Realizar la solicitud POST
-    response = requests.post(httpsDesa, data=xml, headers=headers)
 
-    resultado =""
-    # Comprobar la respuesta
-    if response.status_code == 200:
-        #print("Solicitud exitosa:")
+    if nOpcion == 1:
+        resultado = xml
+    elif nOpcion ==0:
+    
+        # Realizar la solicitud POST
+        #cHttps: definir el link del entorno de pruebas o de desarrollo
+        response = requests.post(cHttps, data=xml, headers=headers)
 
-        # Parsear la respuesta XML
-        response_content = response.content
-        root = ET.fromstring(response_content)
+        
+        # Comprobar la respuesta
+        if response.status_code == 200:
+            #print("Solicitud exitosa:")
 
-        resultado = root.find('.//resultado').text
-        #print("Resultado:", resultado)
-    else:
-        #print("Error en la solicitud:", response.status_code, response.content)
-        resultado = f"Error en la solicitud: {response.status_code}, {response.content}"
-    """
+            # Parsear la respuesta XML
+            response_content = response.content
+            root = ET.fromstring(response_content)
+            fecha =""
+            hora = ""
+
+            codResul = root.find('.//resultado').text  #codigo del resultado
+            if codResul =="0":
+                fecha = root.find('.//fechaRegistro')
+                hora = root.find('.//horaRegistro')
+                resultado = f"R0|{codResul}|{fecha}|{hora}"
+            else:
+                resultado = f"R1|{codResul}|{datetime.now().date()}|{datetime.now().strftime("%H:%M:%S")}"
+        else:
+            #print("Error en la solicitud:", response.status_code, response.content)
+            resultado = f"RE|Error en la solicitud: {response.status_code}, {response.content}"
+        
     return resultado
