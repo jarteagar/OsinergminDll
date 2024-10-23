@@ -2,7 +2,7 @@ import requests
 import xml.etree.ElementTree as ET
 
 def OSVersion():
-    return 1.0
+    return 1.1
 
 def OSPriceService(cHttps,cClave,cLogin,cProd,mData):
 
@@ -26,12 +26,13 @@ def OSPriceService(cHttps,cClave,cLogin,cProd,mData):
     #    {"codigo": "51", "precio": 20.0, "descuento": 5.0, "unidad": "L"}
     #]
 
-    codigo =""
-    unidad =""
-    precio = 0.0
-    descuento = 0.0
+    #codigo =""
+    #unidad =""
+    #precio = 0.0
+    #descuento = 0.0
     marca =""
     tipo ="27"
+
     XmlBodyDetalle = ""
     
     if cProd == 'CL':
@@ -76,8 +77,7 @@ def OSPriceService(cHttps,cClave,cLogin,cProd,mData):
                         <codigoUsuario></codigoUsuario>
                         <cola></cola>
                         <descripcionEstado></descripcionEstado>'''
-        XmlBody = f'''
-                        <detalles>
+        XmlBody = '''   <detalles>
                             <cantidad1></cantidad1>
                             <cantidad2></cantidad2>
                             <cantidadDespachada></cantidadDespachada>
