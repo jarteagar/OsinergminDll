@@ -242,7 +242,7 @@ def OSPriceService(cHttps,cClave,cLogin,cProd,mData,nOpcion):
                 hora = root.find('.//horaRegistro')
                 resultado = f"R0|{codResul}|{fecha}|{hora}"
             else:
-                resultado = f"R1|{codResul}|{datetime.now().date()}|{datetime.now().strftime("%H:%M:%S")}"
+                resultado = f'''R1|{codResul}|{datetime.now().date()}|{datetime.now().strftime("%H:%M:%S")}'''
         else:
             #print("Error en la solicitud:", response.status_code, response.content)
             resultado = f"RE|Error en la solicitud: {response.status_code}, {response.content}"
