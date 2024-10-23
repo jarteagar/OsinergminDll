@@ -221,7 +221,7 @@ def OSPriceService(cHttps,cClave,cLogin,cProd,mData,nOpcion):
 
     if nOpcion == 1:
         resultado = xml #solo muestra el xml que se va a enviar
-    elif nOpcion ==0:
+    elif nOpcion ==0 or nOpcion == 2:
     
         # Realizar la solicitud POST
         #cHttps: definir el link del entorno de pruebas o de desarrollo
@@ -241,9 +241,10 @@ def OSPriceService(cHttps,cClave,cLogin,cProd,mData,nOpcion):
             codResul = root.find('.//resultado').text  #codigo del resultado
 
             if nOpcion ==2:
-                resultado = root 
+                resultado = f'''{response_content}''' 
             else:
-                if codResul =="0":
+                if codResul =="1":
+                    #exito
                     fecha = root.find('.//fechaRegistro').text
                     hora = root.find('.//horaRegistro').text
                     resultado = f"R0|{codResul}|{fecha}|{hora}"
