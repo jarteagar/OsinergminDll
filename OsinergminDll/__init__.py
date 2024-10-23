@@ -159,14 +159,14 @@ def OSPriceService(cHttps,cClave,cLogin,cProd,mData):
             <ordenPedido>
                 <loginUsuario>{cLogin}</loginUsuario>
                 <claveUsuario>{cClave}</claveUsuario>'''       
-        XmlBody =f'''
+        XmlBody ='''
                 <detalles>
                     <codigoProducto>{codigo}</codigoProducto>
                     <precio>{precio}</precio>
                     <codigoMarca>{marca}</codigoMarca>
                     <tipoUsuario>{tipo}</tipoUsuario>
                 </detalles>'''
-        XmlFooter =f'''
+        XmlFooter ='''
             </ordenPedido>
         </ser:registraPriceCilindrosGlp>
     </soap:Body>
@@ -179,13 +179,13 @@ def OSPriceService(cHttps,cClave,cLogin,cProd,mData):
                 <ordenPedido>
                     <loginUsuario>{cLogin}</loginUsuario>
                     <claveUsuario>{cClave}</claveUsuario>'''
-        XmlBody =f'''
+        XmlBody ='''
                     <detalles>
                         <codigoProducto>{codigo}</codigoProducto>
                         <precio>{precio}</precio>
                         <codigoUnidad>{unidad}</codigoUnidad>
                     </detalles>'''
-        XmlFooter =f'''
+        XmlFooter ='''
                 </ordenPedido>
             </ser:registraPriceLiquidos>
         </soap:Body>
