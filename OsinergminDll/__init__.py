@@ -190,13 +190,8 @@ def OSPriceService(cHttps,cClave,cLogin,cProd,mData):
     
     #iteramos el detalle
     for itm in mData:
-        if cProd == 'CL':
-            codigo =itm['codigo']
-            unidad = itm['unidad']
-            precio = itm['precio']
-            descuento = itm['descuento']
-
-            XmlBodyDetalle += XmlBody
+        if cProd == 'CL':     
+            XmlBodyDetalle += XmlBody.format(codigo =itm['codigo'], unidad = itm['unidad'], precio = itm['precio'], descuento = itm['descuento'])
 
     # Unir las partes del XML
     xml = XmlHeader + XmlBodyDetalle + XmlFooter
