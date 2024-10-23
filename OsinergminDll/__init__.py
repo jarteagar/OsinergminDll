@@ -4,11 +4,12 @@ from datetime import datetime
 
 def OSVersion():
     nota ='''Notas de la version***********************************
-        Version 1.2
+        Version 1.3
 
         en ultimo parametro "nOpcion" tiene 2 valores:
         0 = envia el XML 
-        1 = muestra el xm
+        1 = muestra el XML que se va a enviar
+        2 = muestra el XML de respuesta
 
         el 5to parametro "mData" es un diccionario, puede tener
         uno o mas registros, se recomienda enviar sólo un registro
@@ -219,7 +220,7 @@ def OSPriceService(cHttps,cClave,cLogin,cProd,mData,nOpcion):
     }
 
     if nOpcion == 1:
-        resultado = xml
+        resultado = xml #solo muestra el xml que se va a enviar
     elif nOpcion ==0:
     
         # Realizar la solicitud POST
@@ -238,12 +239,16 @@ def OSPriceService(cHttps,cClave,cLogin,cProd,mData,nOpcion):
             hora = ""
 
             codResul = root.find('.//resultado').text  #codigo del resultado
-            if codResul =="0":
-                fecha = root.find('.//fechaRegistro').text
-                hora = root.find('.//horaRegistro').text
-                resultado = f"R0|{codResul}|{fecha}|{hora}"
+
+            if nOpcion ==2:
+                resultado = root 
             else:
-                resultado = f'''R1|{codResul}|{datetime.now().date()}|{datetime.now().strftime("%H:%M:%S")}'''
+                if codResul =="0":
+                    fecha = root.find('.//fechaRegistro').text
+                    hora = root.find('.//horaRegistro').text
+                    resultado = f"R0|{codResul}|{fecha}|{hora}"
+                else:
+                    resultado = f'''R1|{codResul}|{datetime.now().date()}|{datetime.now().strftime("%H:%M:%S")}'''
         else:
             #print("Error en la solicitud:", response.status_code, response.content)
             resultado = f"RE|Error en la solicitud: {response.status_code}, {response.content}"
