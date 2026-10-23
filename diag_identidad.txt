@@ -1,0 +1,897 @@
+--- DIAGNOSTICO DE IDENTIDAD (solo lectura) ---
+binding: estatico (gen_py)
+ruta: Modelo UDV/Modelo Logico
+modelo: UDV Modelo de Datos Logico V0.640
+locator: mart://Mart/Modelo UDV/Modelo Logico/UDV Modelo de Datos Logico V0.640?<params>
+  PersistenceUnits.Add(mart://Mart/Modelo UDV/Modelo Logico/UDV Modelo de Datos Logico V0.640?<params>) -> OK
+disposicion: Read_Only = Yes;
+model_type: 3
+
+objetos totales: 58049; recorridos: 58049
+clases de interes:
+  Entity: 1838
+  Attribute: 17209
+  Key_Group: 5325
+  Key_Group_Member: 6975
+  Relationship: 3497
+  Subject_Area: 27
+  Domain: 52
+
+propiedades observadas (nombres y frecuencia):
+  [Entity]
+    Attributes_Order_Ref: 1835
+    Child_Relationships_Ref: 785
+    Columns_Order_Ref: 1833
+    Comment: 1248
+    Definition: 1202
+    Dependent_Objects_Ref: 1838
+    Do_Not_Generate: 1838
+    Entity.Logical.Clasificacion del Dato: 1838
+    Entity.Logical.Dominio Principal: 1838
+    Entity.Logical.Filtro Despliegue 2021: 1838
+    Entity.Logical.Tipo de Entidad: 1838
+    Entity.Logical.Tipo de Vista: 1838
+    Entity.Logical.Universal: 1838
+    Entity.Physical.Clasificacion del Dato: 1838
+    Entity.Physical.Dominio Principal: 621
+    Entity.Physical.Estado Cloud: 1838
+    Entity.Physical.Frecuencia Vacuum: 1838
+    Entity.Physical.Frecuencia Vacuum_1: 1838
+    Entity.Physical.Tabla Cross: 1838
+    Entity.Physical.Tipo de Carga: 1838
+    Entity.Physical.Tipo de Entidad: 1838
+    Entity.Physical.Universal: 1838
+    Growth_By_Month: 1
+    History_List: 1838
+    Hive_Database_Ref: 77
+    Hive_Loc_Type: 1620
+    Icon_Image_Ref: 1240
+    Image_Ref: 1240
+    Initial_Row_Count: 1
+    Is_Logical_Only: 3
+    Is_Physical_Only: 3
+    Long_Id: 1838
+    Name: 1838
+    Name_Qualifier: 77
+    Note_List: 13
+    Owner_Path: 1838
+    Parent_Relationships_Ref: 1271
+    Physical_Columns_Order_Ref: 1833
+    Physical_Name: 1838
+    Script_Templates_Ref: 1449
+    Shapes_Ref: 1788
+    Theme_Ref: 454
+    Type: 1838
+    Update_Entity_Definition_To_Match: 1
+    User_Formatted_Name: 1838
+    User_Formatted_Physical_Name: 1838
+  [Attribute]
+    Attribute.Logical.Atributo Cross: 17209
+    Attribute.Logical.Clasificacion del Dato: 17209
+    Attribute.Logical.Clave Secundaria: 17209
+    Attribute.Logical.Udp: 17209
+    Attribute.Physical.Campo Cross: 17209
+    Attribute.Physical.Clasificacion del Dato: 17209
+    Attribute.Physical.Exclusivo Cloud: 17209
+    Attribute.Physical.Particion: 17209
+    Attribute.Physical.Tabla Referencia: 1368
+    Attribute_Order: 16886
+    Column_Order: 16860
+    Comment: 17138
+    Definition: 14991
+    Dependent_Objects_Ref: 17209
+    Do_Not_Generate: 17209
+    Font_Color: 898
+    Font_Moniker: 3389
+    Font_Name: 27
+    Font_Size: 2862
+    Font_Strikethrough: 17
+    Font_Underscore: 4
+    Hide_In_Logical: 17209
+    Hide_In_Physical: 16967
+    History_List: 17209
+    Image_Ref: 17209
+    Is_Color_Inherited: 1494
+    Is_Font_Bold: 903
+    Is_Font_Inherited: 58
+    Is_Font_Italic: 239
+    Is_Logical_Only: 87
+    Is_Physical_Only: 64
+    Logical_Data_Type: 17209
+    Logical_Lead_Attribute_Ref: 138
+    Long_Id: 17209
+    Master_Attribute_Ref: 17209
+    Name: 17209
+    Note_List: 186
+    Null_Option_Type: 17209
+    Owner_Path: 17209
+    Parent_Attribute_Ref: 4412
+    Parent_Domain_Ref: 17209
+    Parent_Relationship_Ref: 4412
+    Physical_Data_Type: 17209
+    Physical_Lead_Attribute_Ref: 138
+    Physical_Name: 16963
+    Physical_Order: 17106
+    Theme_Ref: 3
+    Type: 17209
+    User_Formatted_Name: 17209
+    User_Formatted_Physical_Name: 17209
+  [Key_Group]
+    Dependent_Objects_Ref: 5325
+    Do_Not_Generate: 5325
+    Index_Members_Order_Ref: 5308
+    Is_Logical_Only: 22
+    Is_Physical_Only: 22
+    Is_Unique: 5325
+    Key_Group.Physical.BYTES POR SEGMENTO: 5325
+    Key_Group.Physical.CAMBIO: 5325
+    Key_Group.Physical.CAMBIO_1: 5325
+    Key_Group.Physical.NOMBRE DE INDICE: 5325
+    Key_Group.Physical.TOTAL DE ESPACIO DEL INDICE (MB): 5325
+    Key_Group_Members_Order_Ref: 5317
+    Key_Group_Type: 5325
+    Long_Id: 5325
+    Name: 5325
+    Owner_Path: 5325
+    Physical_Name: 5325
+    Relationship_Ref: 3470
+    User_Formatted_Name: 5325
+    User_Formatted_Physical_Name: 5325
+  [Key_Group_Member]
+    Attribute_Ref: 6975
+    Dependent_Objects_Ref: 6975
+    Hide_In_Logical: 6975
+    Hide_In_Physical: 6975
+    Index_Member_Order: 6912
+    Is_Logical_Only: 66
+    Is_Physical_Only: 59
+    Key_Group_Member_Order: 6924
+    Long_Id: 6975
+    Name: 6975
+    Owner_Path: 6975
+    Parent_Key_Group_Member_Ref: 4184
+    Physical_Name: 6975
+    User_Formatted_Name: 6975
+    User_Formatted_Physical_Name: 6975
+  [Relationship]
+    Alias_Name: 2
+    Cardinality: 3497
+    Child_Delete_Rule: 3497
+    Child_Entity_Ref: 3497
+    Child_Insert_Rule: 3497
+    Child_Insert_Trigger_Template_Ref: 3470
+    Child_To_Parent_Verb_Phrase: 290
+    Child_Update_Rule: 3497
+    Child_Update_Trigger_Template_Ref: 3470
+    Comment: 3
+    Definition: 2
+    Dependent_Objects_Ref: 3497
+    Do_Not_Generate: 3497
+    Is_Logical_Only: 19
+    Is_Physical_Only: 20
+    Key_Group_Ref: 3470
+    Long_Id: 3497
+    Name: 3497
+    Null_Option_Type: 3497
+    Owner_Path: 3497
+    Parent_Delete_Rule: 3497
+    Parent_Delete_Trigger_Template_Ref: 3470
+    Parent_Entity_Ref: 3497
+    Parent_Insert_Rule: 3497
+    Parent_To_Child_Verb_Phrase: 372
+    Parent_Update_Rule: 3497
+    Parent_Update_Trigger_Template_Ref: 3470
+    Physical_Name: 3497
+    Relationship.Physical.VERIFICAR: 3497
+    Relationship.Physical.VERIFICAR_1092617722: 3497
+    Relationship.Physical.VERIFICAR_1092617725: 3497
+    Relationship.Physical.VERIFICAR_1092617728: 3497
+    Relationship_Sequence: 15
+    Shapes_Ref: 3471
+    Type: 3497
+    User_Formatted_Name: 3497
+    User_Formatted_Physical_Name: 3497
+  [Subject_Area]
+    Author: 1
+    Auto_Attached_Objects_Ref: 25
+    Creation_Time: 27
+    Current_ER_Diagram_Ref: 27
+    Dependent_Objects_Ref: 27
+    Long_Id: 27
+    Model_DiagramTab_Order_Ref: 18
+    Modification_Time: 27
+    Name: 27
+    Object_Order: 27
+    Owner_Path: 27
+    User_Attached_Objects_Ref: 26
+    User_Formatted_Name: 27
+    User_Formatted_Physical_Name: 27
+  [Domain]
+    Attribute.Logical.Atributo Cross: 52
+    Attribute.Logical.Clasificacion del Dato: 52
+    Attribute.Logical.Clave Secundaria: 52
+    Attribute.Logical.Udp: 52
+    Attribute.Physical.Campo Cross: 52
+    Attribute.Physical.Clasificacion del Dato: 52
+    Attribute.Physical.Exclusivo Cloud: 52
+    Attribute.Physical.Particion: 52
+    Attribute_Definition: 8
+    Attribute_Image_Ref: 51
+    Attribute_Name: 52
+    Built_In_Id: 6
+    Column_Comment: 52
+    Column_Name: 52
+    Comment: 29
+    Definition: 27
+    Dependent_Objects_Ref: 52
+    Image_Ref: 51
+    Is_Logical_Only: 2
+    Is_Physical_Only: 2
+    Logical_Data_Type: 52
+    Long_Id: 52
+    Name: 52
+    Null_Option_Type: 52
+    Owner_Path: 52
+    Parent_Domain_Ref: 51
+    Physical_Data_Type: 51
+    Physical_Name: 52
+    Type: 52
+    User_Formatted_Name: 52
+    User_Formatted_Physical_Name: 52
+
+== ENTIDADES ==
+Entity: 1838; nombres distintos: 1652
+nombres repetidos: 131; objetos en esos grupos: 317
+Long_Id repetidos entre Entity: 0
+
+-- 'Party': 2 objetos Entity --
+  id='{79E1CA34-F847-41AE-B329-92E3CD4BAB8B}+00000000' object_id='{79E1CA34-F847-41AE-B329-92E3CD4BAB8B}+00000000' fisico='PARTY' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Clave Party;Tipo Clasificacion Interna Party;Tipo Party Identificacion;Codigo Party;'], 'User_Formatted_Physical_Name': 'PARTY', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'No Definido', 'Entity.Logical.Dominio Principal': 'Clientes', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref=[1] Party;Party;Party;Party;Party;Party;Party;Party;Party;Party;Party;Party;
+    Dependent_Objects_Ref=[1] 3. Cuenta;1. Party;Party;R/93;R/100;R/110;R/118;R/127;R/129;Party;R/300;R/365;Party;Party;6. Transaccion;Party;7. Campania;8. Solicitud;Party;19. Gestion Caso Cliente;Party;...
+  id='{A20AC027-D6BB-4B31-A6D9-3BB6AE6776A4}+00000000' object_id='{A20AC027-D6BB-4B31-A6D9-3BB6AE6776A4}+00000000' fisico='PARTY' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Clave Party__2;Tipo Clasificacion Interna Party;Tipo Party Identificacion;Codigo Party;'], 'User_Formatted_Physical_Name': 'PARTY', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'No Definido', 'Entity.Logical.Dominio Principal': 'Clientes', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{EFEA0DE5-569F-4602-9157-00828B5F93FA}+00000000'
+    Dependent_Objects_Ref=[1] 3. Cuenta;R/100;Party;
+
+-- 'Tipo Estado Civil': 2 objetos Entity --
+  id='{3DFC929D-477C-44F8-B92C-96B7AA2AFAC7}+00000000' object_id='{3DFC929D-477C-44F8-B92C-96B7AA2AFAC7}+00000000' fisico='TIPOESTADOCIVIL' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Tipo Estado Civil;Descripcion Tipo Estado Civil;'], 'User_Formatted_Physical_Name': 'TIPOESTADOCIVIL', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': 'Clientes', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref=[1] Tipo Estado Civil;Tipo Estado Civil;Tipo Estado Civil;
+    Dependent_Objects_Ref=[1] 1. Party;Tipo Estado Civil;R/95;Tipo Estado Civil;Tipo Estado Civil;
+  id='{A595DFCC-AB20-47C2-87CD-694502229896}+00000000' object_id='{A595DFCC-AB20-47C2-87CD-694502229896}+00000000' fisico='TIPOESTADOCIVIL' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Tipo Estado Civil;Descripcion Tipo Estado Civil;'], 'User_Formatted_Physical_Name': 'TIPOESTADOCIVIL', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': 'Clientes', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{4E882D1D-2FDC-40D5-A962-8A30B1560C87}+00000000'
+    Dependent_Objects_Ref=[1] 18. Cotizacion;Tipo Estado Civil;R/2844;
+
+-- 'Party Rol': 3 objetos Entity --
+  id='{4345F55B-2E07-4819-9964-A4D46E3064B9}+00000000' object_id='{4345F55B-2E07-4819-9964-A4D46E3064B9}+00000000' fisico='PARTYROL' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Clave Party;Tipo Rol;Codigo Clave Tipo Estado;'], 'User_Formatted_Physical_Name': 'PARTYROL', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'No Definido', 'Entity.Logical.Dominio Principal': 'Clientes', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref=[1] Party Rol;Party Rol;Party Rol;Party Rol;Party Rol;Party Rol;Party Rol;Party Rol;Party Rol;Party Rol;Party Rol;Party Rol;Party Rol;Party Rol;Party Rol;Party Rol;Party Rol;Par...
+    Dependent_Objects_Ref=[1] 3. Cuenta;1. Party;Party Rol;R/100;R/101;R/107;R/109;R/112;R/116;2. Ubicacion;Party Rol;Party Rol;Party Rol;Party Rol;Party Rol;R/284;R/285;R/286;R/308;R/390;Party Rol;R/400...
+  id='{23A7E70E-885B-40F1-A186-3F9BB482C1AE}+00000000' object_id='{23A7E70E-885B-40F1-A186-3F9BB482C1AE}+00000000' fisico='PARTYROL' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Clave Party__2;Tipo Rol;Codigo Clave Tipo Estado;'], 'User_Formatted_Physical_Name': 'PARTYROL', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'No Definido', 'Entity.Logical.Dominio Principal': 'Clientes', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{59D737D3-602C-4703-AB5E-3529D51BA499}+00000000'
+    Dependent_Objects_Ref=[1] 3. Cuenta;R/100;R/116;R/286;R/390;Party Rol;R/713;R/719;R/2963;R/2972;
+  id='{20B2DCA9-432C-44B0-9B22-1FD6C96E39D3}+00000000' object_id='{20B2DCA9-432C-44B0-9B22-1FD6C96E39D3}+00000000' fisico='PARTYROL' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Clave Party;Tipo Rol;Codigo Clave Tipo Estado;'], 'User_Formatted_Physical_Name': 'PARTYROL', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'No Definido', 'Entity.Logical.Dominio Principal': 'Clientes', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{71C4BE89-311C-48DC-ACBB-867DDC56D13D}+00000000'
+    Dependent_Objects_Ref=[1] 3. Cuenta;Party Rol;R/3247;R/3248;
+
+-- 'Cliente': 7 objetos Entity --
+  id='{6932A8F0-07B7-47FF-8D11-3037F82D3A40}+00000000' object_id='{6932A8F0-07B7-47FF-8D11-3037F82D3A40}+00000000' fisico='CLIENTE' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Tipo Clasificacion Cliente;Tipo Marca Cliente;Tipo Credito;Tipo Banca;Fecha Ingreso Dato;Codigo Subsegmento;Flag Sipan;Tipo Uso Registro Persona;Cantidad Total Direccion;Codigo Clave Party Cliente;Tipo Rol Cliente;Codigo Sectorista Anterior;Tipo Procedencia Banco;Codigo Sectorista;Tipo Razon Cliente;Flag Cliente Baja;Fecha Consentimiento Ley Proteccion Dato BCP;Fecha Consentimiento Ley Proteccion Dato Grupo Credicorp;Tipo Consentimiento Ley Proteccion Dato BCP;Tipo Consentimiento Ley Proteccion Dato Grupo Credicorp;Codigo Subsegmento Consumo;Descripcion Subsegmento Consumo;'], 'User_Formatted_Physical_Name': 'CLIENTE', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Sub-Tipo', 'Entity.Logical.Dominio Principal': 'Clientes', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref=[1] Cliente;Cliente;Cliente;Cliente;Cliente;Cliente;Cliente;Cliente;Cliente;Cliente;Cliente;Cliente;Cliente;Cliente;Cliente;Cliente;Cliente;Cliente;Cliente;Cliente;Cliente;Clien...
+    Dependent_Objects_Ref=[1] 3. Cuenta;1. Party;Cliente;R/210;R/212;R/214;R/215;R/221;R/253;Cliente;R/286;R/341;Cliente;R/349;R/350;4. Tarjeta;R/392;Cliente;Cliente;6. Transaccion;R/437;R/475;Cliente;R/...
+  id='{3F18B604-1F50-4C0D-A6C9-B761F1E64934}+00000000' object_id='{3F18B604-1F50-4C0D-A6C9-B761F1E64934}+00000000' fisico='M_CLIENTE' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': 'M_CLIENTE', 'Physical_Columns_Order_Ref': ['Codigo Clave Party Cliente;Tipo Rol Cliente;Codigo Clave Party Agencia;Tipo Rol Agencia;Codigo Agencia;Nombre Agencia;Codigo Clave Party Oficina;Tipo Rol Oficina;Codigo Oficina;Codigo Subsegmento;Descripcion Subsegmento;Codigo Subsegmento General;Descripcion Subsegmento General;Codigo Segmento;Descripcion Segmento;Codigo Clasificacion Banca;Descripcion Clasificacion Banca;Codigo Externo Segmento;Tipo Banca;DESTIPBCA;Tipo Credito;DESTIPCREDITO;Tipo Marca Cliente;DESTIPMARCACLI;Tipo Clasificacion Cliente;Descripcion Tipo Clasificacion Cliente;Fecha Ingreso Dato;Flag Sipan;Cantidad Total Direccion;Tipo Procedencia Banco;Descripcion Tipo Procedencia Banco;Tipo Razon Cliente;Descripcion Tipo Razon Cliente;Codigo Sector;Codigo Sectorista;Codigo Sectorista Anterior;Tipo Uso Registro Persona;Descripcion Tipo Uso Registro Persona;Codigo Empresa Grupo;Codigo Interno Computacional;Codigo Clave Unico Cliente;Codigo Clave Party Unificado;Flag Cliente Baja;Flag Sector Restringido;Flag Bienalidad;Flag Informalidad;Codigo Clave Party Cliente Grupo Economico;Tipo Rol Cliente Grupo Economico;Tipo Consentimiento Ley Proteccion Dato BCP;Descripcion Tipo Consentimiento Ley Proteccion Dato BCP;Fecha Consentimiento Ley Proteccion Dato BCP;Tipo Consentimiento Ley Proteccion Dato Grupo Credicorp;Descripcion Tipo Consentimiento Ley Proteccion Dato Grupo Credicorp;Fecha Consentimiento Ley Proteccion Dato Grupo Credicorp;Tipo Observacion Calidad Dato;Descripcion Tipo Observacion Calidad Dato;Descripcion observacion Calidad DAC Sector;'], 'User_Formatted_Physical_Name': 'M_CLIENTE', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Sub-Tipo', 'Entity.Logical.Dominio Principal': '', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Dominio Principal': 'Cliente,Empleado', 'Entity.Physical.Tipo de Carga': ' Tipo 1 (No Historia)', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref=[1] Cliente;Cliente;Cliente;
+    Dependent_Objects_Ref=[1] 1. Party;6. Transaccion;R/1065;Cliente;R/3024;20. Documento;24. Centro Contacto;Cliente;R/4168;Cliente;R/4580;R/4602;R/4603;R/4663;
+  id='{674FB7E2-D9C0-4E4C-9580-C08D6C79E712}+00000000' object_id='{674FB7E2-D9C0-4E4C-9580-C08D6C79E712}+00000000' fisico='CLIENTE' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Tipo Clasificacion Cliente;Tipo Marca Cliente;Tipo Credito;Tipo Banca;Fecha Ingreso Dato;Codigo Subsegmento;Flag Sipan;Tipo Uso Registro Persona;Cantidad Total Direccion;Codigo Clave Party Cliente;Tipo Rol Cliente;Codigo Sectorista Anterior;Tipo Procedencia Banco__2;Codigo Sectorista;Tipo Razon Cliente;Flag Cliente Baja;Fecha Consentimiento Ley Proteccion Dato BCP;Fecha Consentimiento Ley Proteccion Dato Grupo Credicorp;Tipo Consentimiento Ley Proteccion Dato BCP;Tipo Consentimiento Ley Proteccion Dato Grupo Credicorp;'], 'User_Formatted_Physical_Name': 'CLIENTE', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Sub-Tipo', 'Entity.Logical.Dominio Principal': 'Clientes', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{F7810AAE-3311-4F62-8661-104E649B055A}+00000000'
+    Dependent_Objects_Ref=[1] 22. Provision;R/214;R/2377;Cliente;R/2413;
+  id='{4ABB2728-A6FA-41D3-9CCE-CD550662EA4D}+00000000' object_id='{4ABB2728-A6FA-41D3-9CCE-CD550662EA4D}+00000000' fisico='CLIENTE' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Tipo Clasificacion Cliente;Tipo Marca Cliente;Tipo Credito;Tipo Banca;Fecha Ingreso Dato;Codigo Subsegmento;Flag Sipan;Tipo Uso Registro Persona;Cantidad Total Direccion;Codigo Clave Party Cliente;Tipo Rol Cliente;Codigo Sectorista Anterior;Tipo Procedencia Banco;Codigo Sectorista;Tipo Razon Cliente;Flag Cliente Baja;Fecha Consentimiento Ley Proteccion Dato BCP;Fecha Consentimiento Ley Proteccion Dato Grupo Credicorp;Tipo Consentimiento Ley Proteccion Dato BCP;Tipo Consentimiento Ley Proteccion Dato Grupo Credicorp;'], 'User_Formatted_Physical_Name': 'CLIENTE', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Sub-Tipo', 'Entity.Logical.Dominio Principal': 'Clientes', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{C5A0C0A3-0DA6-41B2-9728-BA2EB3C11461}+00000000'
+    Dependent_Objects_Ref=[1] 3. Cuenta;R/214;R/286;R/341;R/349;R/350;R/392;R/475;Cliente;R/1395;R/1446;R/2413;R/4708;
+  id='{02628BE8-18C3-48DA-A1B2-D13B2FC725D3}+00000000' object_id='{02628BE8-18C3-48DA-A1B2-D13B2FC725D3}+00000000' fisico='CLIENTE' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Tipo Clasificacion Cliente;Tipo Marca Cliente;Tipo Credito;Tipo Banca;Fecha Ingreso Dato;Codigo Subsegmento;Flag Sipan;Tipo Uso Registro Persona;Cantidad Total Direccion;Codigo Clave Party Cliente;Tipo Rol Cliente;Codigo Sectorista Anterior;Tipo Procedencia Banco;Codigo Sectorista;Tipo Razon Cliente;Flag Cliente Baja;Fecha Consentimiento Ley Proteccion Dato BCP;Fecha Consentimiento Ley Proteccion Dato Grupo Credicorp;Tipo Consentimiento Ley Proteccion Dato BCP;Tipo Consentimiento Ley Proteccion Dato Grupo Credicorp;'], 'User_Formatted_Physical_Name': 'CLIENTE', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Sub-Tipo', 'Entity.Logical.Dominio Principal': 'Clientes', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{8F5C754B-2A7B-44B2-A774-31A21C0E0A61}+00000000'
+    Dependent_Objects_Ref=[1] 3. Cuenta;R/475;R/975;Cliente;R/2413;
+  id='{9CBFB4DF-5FBA-432F-938E-7A07701AD319}+00000000' object_id='{9CBFB4DF-5FBA-432F-938E-7A07701AD319}+00000000' fisico='CLIENTE' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': 'CLIENTE', 'Physical_Columns_Order_Ref': ['Codigo Clave Party Cliente;Tipo Rol Cliente;Codigo Clave Party Agencia;Tipo Rol Agencia;Codigo Agencia;Nombre Agencia;Codigo Clave Party Oficina;Tipo Rol Oficina;Codigo Oficina;Codigo Subsegmento;Descripcion Subsegmento;Codigo Subsegmento General;Descripcion Subsegmento General;Codigo Segmento;Descripcion Segmento;Codigo Clasificacion Banca;Descripcion Clasificacion Banca;Codigo Externo Segmento;Tipo Banca;DESTIPBCA;Tipo Credito;DESTIPCREDITO;Tipo Marca Cliente;DESTIPMARCACLI;Tipo Clasificacion Cliente;Descripcion Tipo Clasificacion Cliente;Fecha Ingreso Dato;Flag Sipan;Cantidad Total Direccion;Tipo Procedencia Banco;Descripcion Tipo Procedencia Banco;Tipo Razon Cliente;Descripcion Tipo Razon Cliente;Codigo Sector;Codigo Sectorista;Codigo Sectorista Anterior;Tipo Uso Registro Persona;Descripcion Tipo Uso Registro Persona;Codigo Empresa Grupo;Codigo Interno Computacional;Codigo Clave Unico Cliente;Codigo Clave Party Unificado;Flag Cliente Baja;Flag Sector Restringido;Flag Bienalidad;Flag Informalidad;Codigo Clave Party Cliente Grupo Economico;Tipo Rol Cliente Grupo Economico;Tipo Consentimiento Ley Proteccion Dato BCP;Descripcion Tipo Consentimiento Ley Proteccion Dato BCP;Fecha Consentimiento Ley Proteccion Dato BCP;Tipo Consentimiento Ley Proteccion Dato Grupo Credicorp;Descripcion Tipo Consentimiento Ley Proteccion Dato Grupo Credicorp;Fecha Consentimiento Ley Proteccion Dato Grupo Credicorp;Tipo Observacion Calidad Dato;Descripcion Tipo Observacion Calidad Dato;Descripcion observacion Calidad DAC Sector;FlgRegEliminadoFuente;FecRegEliminadoFuente;FecRutina;FecActualizacionRegistro;TipFrecuenciaRegistro;FecDia;Tipo Cuenta;'], 'User_Formatted_Physical_Name': 'CLIENTE', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Sub-Tipo', 'Entity.Logical.Dominio Principal': '', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Dominio Principal': 'Cliente,Empleado', 'Entity.Physical.Tipo de Carga': ' Tipo 1 (No Historia)', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{6C0E2222-4844-4637-B504-38D898E4938D}+00000000'
+    Dependent_Objects_Ref=[1] 7. Campania;R/221;R/1065;Cliente;R/6108;
+  id='{6B47B43C-AFAF-4E60-8872-4FF43EB56E2C}+00000000' object_id='{6B47B43C-AFAF-4E60-8872-4FF43EB56E2C}+00000000' fisico='M_CLIENTE' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': 'M_CLIENTE', 'Physical_Columns_Order_Ref': ['Codigo Clave Party Cliente;Tipo Rol Cliente;Codigo Clave Party Agencia;Tipo Rol Agencia;Codigo Agencia;Nombre Agencia;Codigo Clave Party Oficina;Tipo Rol Oficina;Codigo Oficina;Codigo Subsegmento;Descripcion Subsegmento;Codigo Subsegmento General;Descripcion Subsegmento General;Codigo Segmento;Descripcion Segmento;Codigo Clasificacion Banca;Descripcion Clasificacion Banca;Codigo Externo Segmento;Tipo Banca;DESTIPBCA;Tipo Credito;DESTIPCREDITO;Tipo Marca Cliente;DESTIPMARCACLI;Tipo Clasificacion Cliente;Descripcion Tipo Clasificacion Cliente;Fecha Ingreso Dato;Flag Sipan;Cantidad Total Direccion;Tipo Procedencia Banco;Descripcion Tipo Procedencia Banco;Tipo Razon Cliente;Descripcion Tipo Razon Cliente;Codigo Sector;Codigo Sectorista;Codigo Sectorista Anterior;Tipo Uso Registro Persona;Descripcion Tipo Uso Registro Persona;Codigo Empresa Grupo;Codigo Interno Computacional;Codigo Clave Unico Cliente;Codigo Clave Party Unificado;Flag Cliente Baja;Flag Sector Restringido;Flag Bienalidad;Flag Informalidad;Tipo Consentimiento Ley Proteccion Dato BCP;Descripcion Tipo Consentimiento Ley Proteccion Dato BCP;Fecha Consentimiento Ley Proteccion Dato BCP;Tipo Consentimiento Ley Proteccion Dato Grupo Credicorp;Descripcion Tipo Consentimiento Ley Proteccion Dato Grupo Credicorp;Fecha Consentimiento Ley Proteccion Dato Grupo Credicorp;Tipo Observacion Calidad Dato;Descripcion Tipo Observacion Calidad Dato;Descripcion observacion Calidad DAC Sector;FlgRegEliminadoFuente;FecRegEliminadoFuente;FecRutina;FecActualizacionRegistro;TipFrecuenciaRegistro;FecDia;'], 'User_Formatted_Physical_Name': 'M_CLIENTE', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Sub-Tipo', 'Entity.Logical.Dominio Principal': '', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Dominio Principal': 'Cliente,Empleado', 'Entity.Physical.Tipo de Carga': ' Tipo 1 (No Historia)', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{BA48DF32-0D48-48D8-85B2-7F3213AE518B}+00000000'
+    Dependent_Objects_Ref=[1] 23. Loyalty;Cliente;R/3500;R/3508;R/3510;R/4276;
+
+-- 'Colaborador': 2 objetos Entity --
+  id='{77D5FD6A-CD5B-47DD-A212-1501D03D52C2}+00000000' object_id='{77D5FD6A-CD5B-47DD-A212-1501D03D52C2}+00000000' fisico='COLABORADOR' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Colaborador;Codigo Clave Party Colaborador;Tipo Rol Colaborador;Codigo Sector;Codigo Ubicacion Fisica Colaborador;Tipo Clase Contrato Colaborador;Tipo Relacion Laboral Colaborador;Tipo Absentismo Licencia Colaborador;Tipo Absentismo Subsidio Colaborador;Fecha Fin Vacacion;Fecha Ingreso Colaborador;Fecha Inicio Vacacion;Fecha Retiro Colaborador;Tipo Funcion Comercial Colaborador;Fecha Inicio Absentismo Licencia;Fecha Fin Absentismo Licencia;Fecha Inicio Absentismo Subsidio;Fecha Fin Absentismo Subsidio;Codigo Funcion Interna Colaborador;Codigo Posicion Colaborador;Codigo Puesto Colaborador;Codigo Area Personal;Codigo Grupo Personal;Codigo Clave Tipo Estado Laboral;Codigo Departamento;Codigo Clave Party Sucursal;Tipo Rol Sucursal;Codigo Sucursal;Codigo Matricula Superior;Codigo Area Unidad Organizativa;Codigo Division Unidad Organizativa;Codigo Servicio Unidad Organizativa;Codigo Unidad Organizativa;Codigo Sub Segmento;Descripcion Sub Segmento;'], 'User_Formatted_Physical_Name': 'COLABORADOR', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Sub-Tipo', 'Entity.Logical.Dominio Principal': 'Empleados', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref=[1] Colaborador;Colaborador;Colaborador;Colaborador;Colaborador;Colaborador;Colaborador;Colaborador;Colaborador;Colaborador;Colaborador;Colaborador;Colaborador;Colaborador;Colab...
+    Dependent_Objects_Ref=[1] 3. Cuenta;1. Party;Colaborador;Colaborador;R/285;R/311;R/315;R/375;R/376;R/377;R/378;R/379;R/381;R/384;6. Transaccion;R/444;R/445;R/448;R/451;R/473;Colaborador;R/563;R/564;R...
+  id='{833E8F41-64C4-4707-A099-2B27E5CC7B9C}+00000000' object_id='{833E8F41-64C4-4707-A099-2B27E5CC7B9C}+00000000' fisico='M_COLABORADOR' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': 'M_COLABORADOR', 'Physical_Columns_Order_Ref': ['Tipo Rol Colaborador;Tipo Estado Laboral;Descripcion Tipo Estado Laboral;Codigo Colaborador;Codigo Matricula;Codigo Sector;Codigo Ubicacion Fisica Colaborador;Descripcion Ubicacion Fisica Colaborador;Tipo Clase Contrato Colaborador;Descripcion Tipo Clase Contrato Colaborador;Tipo Relacion Laboral Colaborador;Descripcion Tipo Relacion Laboral Colaborador;Tipo Absentismo Licencia Colaborador;Descripcion Tipo Absentismo Licencia Colaborador;Tipo Absentismo Subsidio Colaborador;Descripcion Tipo Absentismo Subsidio Colaborador;Fecha Fin Vacacion;Fecha Ingreso Colaborador;Fecha Inicio Vacacion;Fecha Retiro Colaborador;Tipo Funcion Comercial Colaborador;Descripcion Tipo Funcion Comercial Colaborador;Fecha Inicio Absentismo Licencia;Fecha Fin Absentismo Licencia;Fecha Inicio Absentismo Subsidio;Fecha Fin Absentismo Subsidio;Codigo Funcion Interna Colaborador;Descripcion Funcion Interna Colaborador;Codigo Posicion Colaborador;Descripcion Posicion Colaborador;Codigo Puesto Colaborador;Descripcion Puesto Colaborador;Codigo Area Personal;Descripcion Area Personal;Codigo Grupo Personal;Descripcion Grupo Personal;Codigo Departamento;Descripcion Departamento;Codigo Clave Party Unificado;Codigo Clave Cuenta;Tipo Observacion Calidad Dato;Descripcion Tipo Observacion Calidad Dato;FlgRegEliminadoFuente;FecRegEliminadoFuente;FecRutina;FecActualizacionRegistro;TipFrecuenciaRegistro;FecDia;Descripcion observacion Calidad DAC Sector;Codigo Clave Tipo Estado Laboral;'], 'User_Formatted_Physical_Name': 'M_COLABORADOR', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Sub-Tipo', 'Entity.Logical.Dominio Principal': 'Empleados', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Dominio Principal': 'Empleado', 'Entity.Physical.Tipo de Carga': ' Tipo 1 (No Historia)', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{AE8D6A0A-AADD-4F4F-B17C-4EAFF1FF2FEB}+00000000'
+    Dependent_Objects_Ref=[1] 8. Solicitud;17. Evento;Colaborador;R/3642;
+
+-- 'Contacto': 2 objetos Entity --
+  id='{03AA913F-FD9F-43CE-9661-D4310BC2A93E}+00000000' object_id='{03AA913F-FD9F-43CE-9661-D4310BC2A93E}+00000000' fisico='CONTACTO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Clave Contacto;Tipo Clasificacion Interna Contacto;'], 'User_Formatted_Physical_Name': 'CONTACTO', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'No Definido', 'Entity.Logical.Dominio Principal': 'Ubicación', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref=[1] Contacto;Contacto;Contacto;Contacto;Contacto;
+    Dependent_Objects_Ref=[1] 3. Cuenta;R/111;2. Ubicacion;Contacto;R/180;R/181;R/184;Contacto;R/235;Contacto;Contacto;R/299;Contacto;
+  id='{72683BE4-D6D2-4BEA-82B1-D578A21B93AD}+00000000' object_id='{72683BE4-D6D2-4BEA-82B1-D578A21B93AD}+00000000' fisico='M_CONTACTO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': 'M_CONTACTO', 'Physical_Columns_Order_Ref': ['Codigo Clave Party Contacto;Tipo Rol Contacto;Codigo Interno Computacional Aplicativo;Codigo Interno Contacto Aplicativo;Codigo Aplicativo;'], 'User_Formatted_Physical_Name': 'M_CONTACTO', 'Entity.Logical.Clasificacion del Dato': 'No DAC', 'Entity.Logical.Tipo de Entidad': 'Super-Tipo', 'Entity.Logical.Dominio Principal': 'SFPM_ClienteContacto', 'Entity.Logical.Universal': 'No', 'Entity.Physical.Clasificacion del Dato': 'No DAC', 'Entity.Physical.Dominio Principal': 'SFPM_ClienteContacto', 'Entity.Physical.Tipo de Carga': 'Tipo 1 (No Historia)', 'Entity.Physical.Tipo de Entidad': 'Super-Tipo', 'Entity.Physical.Universal': 'No', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{045919EE-B5CF-4220-9723-A4DB3D821845}+00000000'
+    Dependent_Objects_Ref=[1] 1. Party;Contacto;
+
+-- 'Tipo Estado': 13 objetos Entity --
+  id='{1364EC0B-547F-4FAA-A3E4-9DDA98388DA2}+00000000' object_id='{1364EC0B-547F-4FAA-A3E4-9DDA98388DA2}+00000000' fisico='TIPOESTADO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Clave Tipo Estado;Tipo Estado;Descripcion Tipo Estado;Tipo Clasificacion Interna Estado;'], 'User_Formatted_Physical_Name': 'TIPOESTADO', 'Entity.Logical.Clasificacion del Dato': ' No DAC', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': 'Generales', 'Entity.Logical.Universal': ' Si', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref=[1] Tipo Estado;Tipo Estado;Tipo Estado;Tipo Estado;Tipo Estado;Tipo Estado;Tipo Estado;Tipo Estado;Tipo Estado;Tipo Estado;Tipo Estado;Tipo Estado;Tipo Estado;Tipo Estado;Tipo ...
+    Dependent_Objects_Ref=[1] 3. Cuenta;1. Party;R/116;2. Ubicacion;Tipo Estado;R/228;Tipo Estado;Tipo Estado;Tipo Estado;Tipo Estado;Tipo Estado;4. Tarjeta;R/383;R/384;Tipo Estado;6. Transaccion;R/620;T...
+  id='{1770D134-7EC4-4F3E-BB80-F637BEBFD703}+00000000' object_id='{1770D134-7EC4-4F3E-BB80-F637BEBFD703}+00000000' fisico='M_DESTIPOESTADO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': 'M_DESTIPOESTADO', 'Physical_Columns_Order_Ref': ['Codigo Clave Tipo Estado;Tipo Estado;Descripcion Tipo Estado;Tipo Clasificacion Interna Estado;Descripcion Tipo Clasificacion Interna Estado;'], 'User_Formatted_Physical_Name': 'M_DESTIPOESTADO', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': 'Generales', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': ' No DAC', 'Entity.Physical.Dominio Principal': 'Cliente,Empleado,Campania, Evento', 'Entity.Physical.Tipo de Carga': ' Tipo 1 (No Historia)', 'Entity.Physical.Tipo de Entidad': ' Referencia', 'Entity.Physical.Universal': ' Si', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref=[1] Tipo Estado;Tipo Estado;
+    Dependent_Objects_Ref=[1] 1. Party;8. Solicitud;Tipo Estado;R/3053;R/3054;17. Evento;R/1970;21. Evaluacion;Tipo Estado;R/2472;R/2480;R/2484;R/2503;
+  id='{2DBCBDC6-DCDF-4257-B53C-1D10930B7551}+00000000' object_id='{2DBCBDC6-DCDF-4257-B53C-1D10930B7551}+00000000' fisico='M_DESTIPOESTADO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': 'M_DESTIPOESTADO', 'Physical_Columns_Order_Ref': ['Codigo Clave Tipo Estado;Tipo Estado;Tipo Clasificacion Interna Estado;'], 'User_Formatted_Physical_Name': 'M_DESTIPOESTADO', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': 'Generales', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': ' No DAC', 'Entity.Physical.Dominio Principal': 'Cliente,Empleado,Campania, Evento', 'Entity.Physical.Tipo de Carga': ' Tipo 1 (No Historia)', 'Entity.Physical.Tipo de Entidad': ' Referencia', 'Entity.Physical.Universal': ' Si', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Dependent_Objects_Ref='{B6BEDAAB-8C50-4A37-BF93-88ACE729658F}+00000000'
+  id='{2D0ABD66-3C70-49A6-9B76-DCD9DA5153DE}+00000000' object_id='{2D0ABD66-3C70-49A6-9B76-DCD9DA5153DE}+00000000' fisico='M_DESTIPOESTADO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': 'M_DESTIPOESTADO', 'Physical_Columns_Order_Ref': ['Codigo Clave Tipo Estado;Tipo Estado;Descripcion Tipo Estado;Tipo Clasificacion Interna Estado;Descripcion Tipo Clasificacion Interna Estado;Codigo Aplicativo;FlgRegEliminadoFuente;FecRegEliminadoFuente;FecRutina;FecActualizacionRegistro;TipFrecuenciaRegistro;FecDia;'], 'User_Formatted_Physical_Name': 'M_DESTIPOESTADO', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': 'Generales', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': ' No DAC', 'Entity.Physical.Dominio Principal': 'Cliente,Empleado,Campania, Evento', 'Entity.Physical.Tipo de Carga': ' Tipo 1 (No Historia)', 'Entity.Physical.Tipo de Entidad': ' Referencia', 'Entity.Physical.Universal': ' Si', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{83A89E4B-4F05-4718-855C-2BF2A59F9C06}+00000000'
+    Dependent_Objects_Ref=[1] 20. Documento;Tipo Estado;R/5112;R/5113;R/5114;R/5115;R/2879;R/2880;R/2881;R/2882;R/4202;
+  id='{2A6BA6A5-9F3C-4B23-B426-620D35BBA584}+00000000' object_id='{2A6BA6A5-9F3C-4B23-B426-620D35BBA584}+00000000' fisico='TIPOESTADO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Clave Tipo Estado;Tipo Estado;Descripcion Tipo Estado;Tipo Clasificacion Interna Estado;'], 'User_Formatted_Physical_Name': 'TIPOESTADO', 'Entity.Logical.Clasificacion del Dato': ' No DAC', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': 'Generales', 'Entity.Logical.Universal': ' Si', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{94873AFF-ACEA-48FE-BD80-5393E70ECCFD}+00000000'
+    Dependent_Objects_Ref=[1] 3. Cuenta;R/116;R/383;R/620;R/621;Tipo Estado;R/950;R/965;R/1527;R/1556;R/1768;R/2956;R/2957;R/2958;R/2962;R/4710;
+  id='{15198F59-8132-44AF-B6E5-E6A70B6571EE}+00000000' object_id='{15198F59-8132-44AF-B6E5-E6A70B6571EE}+00000000' fisico='TIPOESTADO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Clave Tipo Estado;Tipo Estado;Descripcion Tipo Estado;Tipo Clasificacion Interna Estado;'], 'User_Formatted_Physical_Name': 'TIPOESTADO', 'Entity.Logical.Clasificacion del Dato': ' No DAC', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': 'Generales', 'Entity.Logical.Universal': ' Si', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{381B73A6-080B-4E3D-BCE1-EC61835DBAAC}+00000000'
+    Dependent_Objects_Ref=[1] 6. Transaccion;R/620;R/621;Tipo Estado;R/922;R/965;R/1768;R/2953;R/2954;R/2956;R/2957;R/2962;R/2967;
+  id='{9188864C-6B5A-4AE0-B441-C2560706BA6B}+00000000' object_id='{9188864C-6B5A-4AE0-B441-C2560706BA6B}+00000000' fisico='TIPOESTADO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Clave Tipo Estado;Tipo Estado;Descripcion Tipo Estado;Tipo Clasificacion Interna Estado;'], 'User_Formatted_Physical_Name': 'TIPOESTADO', 'Entity.Logical.Clasificacion del Dato': ' No DAC', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': 'Generales', 'Entity.Logical.Universal': ' Si', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{765B78FB-6817-4ACD-9D71-A655D6761314}+00000000'
+    Dependent_Objects_Ref=[1] 3. Cuenta;R/620;Tipo Estado;R/1335;R/3185;R/3190;
+  id='{EA689274-5482-44D2-A747-DE1BA9A7B210}+00000000' object_id='{EA689274-5482-44D2-A747-DE1BA9A7B210}+00000000' fisico='TIPOESTADO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Clave Tipo Estado;Tipo Estado;Descripcion Tipo Estado;Tipo Clasificacion Interna Estado;'], 'User_Formatted_Physical_Name': 'TIPOESTADO', 'Entity.Logical.Clasificacion del Dato': ' No DAC', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': 'Generales', 'Entity.Logical.Universal': ' Si', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Dependent_Objects_Ref='{C0568B59-7443-4690-9389-72A87E3F6D9D}+00000000'
+  id='{D49085B6-23AB-41BE-8650-8F36C92083D3}+00000000' object_id='{D49085B6-23AB-41BE-8650-8F36C92083D3}+00000000' fisico='M_DESTIPOESTADO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': 'M_DESTIPOESTADO', 'Physical_Columns_Order_Ref': ['Codigo Clave Tipo Estado;Tipo Estado;Descripcion Tipo Estado;Tipo Clasificacion Interna Estado;Descripcion Tipo Clasificacion Interna Estado;'], 'User_Formatted_Physical_Name': 'M_DESTIPOESTADO', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': 'Generales', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': ' No DAC', 'Entity.Physical.Dominio Principal': 'Cliente,Empleado,Campania, Evento', 'Entity.Physical.Tipo de Carga': ' Tipo 1 (No Historia)', 'Entity.Physical.Tipo de Entidad': ' Referencia', 'Entity.Physical.Universal': ' Si', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{4E8B000F-E8D1-41DA-8F7D-0F4EC6987383}+00000000'
+    Dependent_Objects_Ref=[1] 18. Cotizacion;Tipo Estado;R/2845;
+  id='{925228D0-6EB3-4355-85FE-FFE6DA675385}+00000000' object_id='{925228D0-6EB3-4355-85FE-FFE6DA675385}+00000000' fisico='DESTIPOESTADO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': 'DESTIPOESTADO', 'Physical_Columns_Order_Ref': ['Codigo Clave Tipo Estado;Tipo Estado;Descripcion Tipo Estado;Tipo Clasificacion Interna Estado;Descripcion Tipo Clasificacion Interna Estado;Codigo Aplicativo;'], 'User_Formatted_Physical_Name': 'DESTIPOESTADO', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': 'Generales', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': ' No DAC', 'Entity.Physical.Dominio Principal': 'Cliente,Empleado,Campania, Evento', 'Entity.Physical.Tipo de Carga': ' Tipo 1 (No Historia)', 'Entity.Physical.Tipo de Entidad': ' Referencia', 'Entity.Physical.Universal': ' Si', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{C828ED81-527A-4CB8-94DE-EB441BB39186}+00000000'
+    Dependent_Objects_Ref=[1] 7. Campania;Tipo Estado;R/6095;R/6125;
+  id='{7C65603E-DC54-44F3-8CD4-94FA969FA4A0}+00000000' object_id='{7C65603E-DC54-44F3-8CD4-94FA969FA4A0}+00000000' fisico='TIPOESTADO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Clave Tipo Estado;Tipo Estado;Descripcion Tipo Estado;Tipo Clasificacion Interna Estado;'], 'User_Formatted_Physical_Name': 'TIPOESTADO', 'Entity.Logical.Clasificacion del Dato': ' No DAC', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': 'Generales', 'Entity.Logical.Universal': ' Si', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{544DCD78-F5C4-42F7-813B-8C0EB6F4B00D}+00000000'
+    Dependent_Objects_Ref=[1] 25. Productividad;R/383;Tipo Estado;R/4526;R/4527;R/4532;R/4540;R/4546;R/4554;
+  id='{4C5F348D-425D-4B97-94C6-F18C19E619D5}+00000000' object_id='{4C5F348D-425D-4B97-94C6-F18C19E619D5}+00000000' fisico='M_DESTIPOESTADO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': 'M_DESTIPOESTADO', 'Physical_Columns_Order_Ref': ['Codigo Clave Tipo Estado;Tipo Estado;Descripcion Tipo Estado;Tipo Clasificacion Interna Estado;Descripcion Tipo Clasificacion Interna Estado;Codigo Aplicativo;'], 'User_Formatted_Physical_Name': 'M_DESTIPOESTADO', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': 'Generales', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': ' No DAC', 'Entity.Physical.Dominio Principal': 'Cliente,Empleado,Campania, Evento', 'Entity.Physical.Tipo de Carga': ' Tipo 1 (No Historia)', 'Entity.Physical.Tipo de Entidad': ' Referencia', 'Entity.Physical.Universal': ' Si', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{937D0BE1-C6DA-4635-AA1C-F8C366C6EF0D}+00000000'
+    Dependent_Objects_Ref=[1] 24. Centro Contacto;Tipo Estado;R/7965;R/7966;
+  id='{CB1B47D2-3EFA-4226-884F-D12D0400342E}+00000000' object_id='{CB1B47D2-3EFA-4226-884F-D12D0400342E}+00000000' fisico='TIPOESTADO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Clave Tipo Estado;Tipo Estado;Descripcion Tipo Estado;Tipo Clasificacion Interna Estado;'], 'User_Formatted_Physical_Name': 'TIPOESTADO', 'Entity.Logical.Clasificacion del Dato': ' No DAC', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': 'Generales', 'Entity.Logical.Universal': ' Si', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{C5FB1FD1-DBAC-466D-8C3F-93CB0728708C}+00000000'
+    Dependent_Objects_Ref=[1] 23. Loyalty;Tipo Estado;R/4272;R/4273;R/4274;R/4275;R/4576;R/4577;R/4583;R/4588;
+
+-- 'Pais': 2 objetos Entity --
+  id='{61025B30-DCF9-46A1-991E-145A6124E220}+00000000' object_id='{61025B30-DCF9-46A1-991E-145A6124E220}+00000000' fisico='PAIS' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Descripcion Pais;Codigo ISO2 Pais;Codigo ISO3 Pais;Codigo ISO Numerico Pais;Codigo BCP Pais;Codigo Clave Ubicacion;Codigo Pais;Flag ISO2 Pais;Codigo Pais SBS;Codigo Continente;'], 'User_Formatted_Physical_Name': 'PAIS', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Sub-Tipo', 'Entity.Logical.Dominio Principal': 'Ubicación', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref=[1] Pais;Pais;Pais;Pais;Pais;Pais;Pais;Pais;Pais;Pais;Pais;Pais;Pais;Pais;Pais;
+    Dependent_Objects_Ref=[1] 3. Cuenta;1. Party;Pais;R/125;2. Ubicacion;Pais;R/182;R/183;R/229;Pais;R/271;R/292;R/298;Pais;Pais;Pais;Pais;6. Transaccion;Pais;R/997;R/1289;Pais;Pais;R/1549;Pais;R/1582;R/...
+  id='{2E7637A9-C634-406D-9F6D-E47CCA5330EA}+00000000' object_id='{2E7637A9-C634-406D-9F6D-E47CCA5330EA}+00000000' fisico='DESPAIS' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': 'DESPAIS', 'Physical_Columns_Order_Ref': ['Codigo Pais;Descripcion Pais;Codigo ISO2 Pais;Codigo ISO3 Pais;Codigo ISO Numerico Pais;Codigo BCP Pais;'], 'User_Formatted_Physical_Name': 'DESPAIS', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Sub-Tipo', 'Entity.Logical.Dominio Principal': '', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': ' No DAC', 'Entity.Physical.Dominio Principal': 'Cliente', 'Entity.Physical.Tipo de Carga': ' Tipo 1 (No Historia)', 'Entity.Physical.Tipo de Entidad': ' Referencia', 'Entity.Physical.Universal': ' No', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{5219EBB6-2207-4E30-BDD5-8422395205AD}+00000000'
+    Dependent_Objects_Ref=[1] 7. Campania;Pais;R/6123;
+
+-- 'Departamento': 3 objetos Entity --
+  id='{1D028987-DFC1-4F87-BAF5-54C7708C54FC}+00000000' object_id='{1D028987-DFC1-4F87-BAF5-54C7708C54FC}+00000000' fisico='DEPARTAMENTO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Descripcion Departamento;Codigo Clave Ubicacion;Codigo Pais;Codigo Departamento;'], 'User_Formatted_Physical_Name': 'DEPARTAMENTO', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Sub-Tipo', 'Entity.Logical.Dominio Principal': 'Ubicación', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref=[1] Departamento;Departamento;Departamento;Departamento;Departamento;Departamento;Departamento;
+    Dependent_Objects_Ref=[1] 1. Party;2. Ubicacion;Departamento;R/183;R/241;Departamento;Departamento;R/272;Departamento;6. Transaccion;R/790;Departamento;R/791;19. Gestion Caso Cliente;Departamento;R/2...
+  id='{F9B4355E-BF61-46E5-ACC6-C9BE17E857DF}+00000000' object_id='{F9B4355E-BF61-46E5-ACC6-C9BE17E857DF}+00000000' fisico='M_DEPARTAMENTO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': 'M_DEPARTAMENTO', 'Physical_Columns_Order_Ref': ['Codigo Departamento;Descripcion Departamento;'], 'User_Formatted_Physical_Name': 'M_DEPARTAMENTO', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Sub-Tipo', 'Entity.Logical.Dominio Principal': '', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Dominio Principal': 'Cliente', 'Entity.Physical.Tipo de Carga': ' Tipo 1 (No Historia)', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{1095505A-7DEF-4D28-8122-B7DD97C609C3}+00000000'
+    Dependent_Objects_Ref=[1] 6. Transaccion;Departamento;R/3581;R/3582;R/3600;R/3783;
+  id='{70F035EB-DA7F-401E-A2D2-9DB6065B028F}+00000000' object_id='{70F035EB-DA7F-401E-A2D2-9DB6065B028F}+00000000' fisico='DEPARTAMENTO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Descripcion Departamento;Codigo Clave Ubicacion;Codigo Pais;Codigo Departamento;'], 'User_Formatted_Physical_Name': 'DEPARTAMENTO', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Sub-Tipo', 'Entity.Logical.Dominio Principal': 'Ubicación', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{34D3162B-9A28-4608-938E-0ECFE7C8BDAB}+00000000'
+    Dependent_Objects_Ref=[1] 18. Cotizacion;R/241;Departamento;R/2839;
+
+-- 'Provincia': 2 objetos Entity --
+  id='{831EB547-AEAF-4965-8C92-199BB02F6BF7}+00000000' object_id='{831EB547-AEAF-4965-8C92-199BB02F6BF7}+00000000' fisico='PROVINCIA' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Descripcion Provincia;Codigo Clave Ubicacion;Codigo Departamento;Codigo Provincia;'], 'User_Formatted_Physical_Name': 'PROVINCIA', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Sub-Tipo', 'Entity.Logical.Dominio Principal': 'Ubicación', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref=[1] Provincia;Provincia;Provincia;Provincia;Provincia;Provincia;Provincia;
+    Dependent_Objects_Ref=[1] 1. Party;2. Ubicacion;R/44;Provincia;R/241;R/264;Provincia;Provincia;R/273;Provincia;Provincia;Provincia;19. Gestion Caso Cliente;Provincia;R/2142;
+  id='{5FD2B4E4-9155-4A13-A69E-7BF04F906EE5}+00000000' object_id='{5FD2B4E4-9155-4A13-A69E-7BF04F906EE5}+00000000' fisico='PROVINCIA' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Descripcion Provincia;Codigo Clave Ubicacion;Codigo Departamento;Codigo Provincia;'], 'User_Formatted_Physical_Name': 'PROVINCIA', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Sub-Tipo', 'Entity.Logical.Dominio Principal': 'Ubicación', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{2D67D9D5-BEB0-4B05-8BAE-70E22925709E}+00000000'
+    Dependent_Objects_Ref=[1] 18. Cotizacion;R/44;R/241;Provincia;R/2842;
+
+-- 'Distrito': 2 objetos Entity --
+  id='{6DDE698D-D088-4FC1-9935-D947C7E10D60}+00000000' object_id='{6DDE698D-D088-4FC1-9935-D947C7E10D60}+00000000' fisico='DISTRITO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Descripcion Distrito;Codigo Clave Ubicacion;Codigo Provincia;Codigo Distrito;Codigo Ubigeo;'], 'User_Formatted_Physical_Name': 'DISTRITO', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Sub-Tipo', 'Entity.Logical.Dominio Principal': 'Ubicación', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref=[1] Distrito;Distrito;Distrito;Distrito;Distrito;Distrito;Distrito;Distrito;Distrito;Distrito;Distrito;
+    Dependent_Objects_Ref=[1] 1. Party;2. Ubicacion;R/44;R/58;Distrito;Distrito;R/230;Distrito;Distrito;Distrito;R/274;R/301;Distrito;R/389;Distrito;6. Transaccion;10. Garantia;Distrito;R/1094;19. Gestio...
+  id='{B21DA10A-3FD2-4B17-9C1A-3ADEC8AD53C0}+00000000' object_id='{B21DA10A-3FD2-4B17-9C1A-3ADEC8AD53C0}+00000000' fisico='DISTRITO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Descripcion Distrito;Codigo Clave Ubicacion;Codigo Provincia;Codigo Distrito;Codigo Ubigeo;'], 'User_Formatted_Physical_Name': 'DISTRITO', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Sub-Tipo', 'Entity.Logical.Dominio Principal': 'Ubicación', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{44DDEFE1-8473-46D7-9FC5-BECF634BD085}+00000000'
+    Dependent_Objects_Ref=[1] 18. Cotizacion;R/44;Distrito;R/2843;
+
+-- 'Moneda': 6 objetos Entity --
+  id='{1F7A3D23-1FF8-4D5B-A77D-3202B483457E}+00000000' object_id='{1F7A3D23-1FF8-4D5B-A77D-3202B483457E}+00000000' fisico='MONEDA' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Moneda;Descripcion Moneda;Codigo ISO Moneda;'], 'User_Formatted_Physical_Name': 'MONEDA', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': 'Ubicación', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref=[1] Moneda;Moneda;Moneda;Moneda;Moneda;Moneda;Moneda;Moneda;Moneda;Moneda;Moneda;Moneda;Moneda;Moneda;Moneda;Moneda;Moneda;Moneda;Moneda;Moneda;Moneda;Moneda;Moneda;Moneda;Moned...
+    Dependent_Objects_Ref=[1] 3. Cuenta;1. Party;2. Ubicacion;Moneda;R/196;R/197;R/198;R/242;Moneda;Moneda;Moneda;Moneda;R/320;R/362;Moneda;Moneda;6. Transaccion;R/433;Moneda;R/435;R/523;Moneda;R/601;Mon...
+  id='{9F89D027-4F70-410D-B7A7-601EB390200B}+00000000' object_id='{9F89D027-4F70-410D-B7A7-601EB390200B}+00000000' fisico='MONEDA' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': 'MONEDA', 'Physical_Columns_Order_Ref': ['Codigo Moneda;Codigo ISO Moneda;Descripcion ISO Moneda;Codigo ISO Numerico Moneda;'], 'User_Formatted_Physical_Name': 'MONEDA', 'Entity.Logical.Clasificacion del Dato': ' No DAC', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': '', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': ' No DAC', 'Entity.Physical.Dominio Principal': 'Cliente', 'Entity.Physical.Tipo de Carga': ' Tipo 1 (No Historia)', 'Entity.Physical.Tipo de Entidad': ' Referencia', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref=[1] Moneda;Moneda;Moneda;Moneda;Moneda;
+    Dependent_Objects_Ref=[1] 1. Party;6. Transaccion;7. Campania;Moneda;R/3038;19. Gestion Caso Cliente;Moneda;R/2147;R/2148;R/2149;R/2163;R/2164;Moneda;R/2172;R/2173;R/2174;Moneda;R/2180;Moneda;R/4707;
+  id='{0EF59147-47F8-4638-B8FF-1F37FEE05C0A}+00000000' object_id='{0EF59147-47F8-4638-B8FF-1F37FEE05C0A}+00000000' fisico='MONEDA' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Moneda;Descripcion Moneda;Codigo ISO Moneda;'], 'User_Formatted_Physical_Name': 'MONEDA', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': 'Ubicación', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{9575F4F8-E1FB-46AB-BA13-B8D42D84D405}+00000000'
+    Dependent_Objects_Ref=[1] 3. Cuenta;R/320;Moneda;R/2979;
+  id='{D5A17FB4-B231-480C-93CF-087B4E8457A4}+00000000' object_id='{D5A17FB4-B231-480C-93CF-087B4E8457A4}+00000000' fisico='MONEDA' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Moneda;Descripcion Moneda;Codigo ISO Moneda;'], 'User_Formatted_Physical_Name': 'MONEDA', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': 'Ubicación', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{DEFB8CAE-6B99-4824-9CEC-353F77D97DDC}+00000000'
+    Dependent_Objects_Ref=[1] 6. Transaccion;R/320;R/435;Moneda;
+  id='{2D5F6A2D-E52C-4C5D-BC8E-A803CE9035E9}+00000000' object_id='{2D5F6A2D-E52C-4C5D-BC8E-A803CE9035E9}+00000000' fisico='MONEDA' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Moneda;Descripcion Moneda;Codigo ISO Moneda;'], 'User_Formatted_Physical_Name': 'MONEDA', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': 'Ubicación', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref=[1] Moneda;Moneda;
+    Dependent_Objects_Ref=[1] 3. Cuenta;6. Transaccion;7. Campania;R/320;R/649;Moneda;R/3183;Moneda;R/3527;R/3528;
+  id='{731F7141-412D-4D4C-ADB6-D77DBEE5C4F1}+00000000' object_id='{731F7141-412D-4D4C-ADB6-D77DBEE5C4F1}+00000000' fisico='MONEDA' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': 'MONEDA', 'Physical_Columns_Order_Ref': ['Codigo Moneda;Codigo ISO Moneda;Descripcion ISO Moneda;Codigo ISO Numerico Moneda;'], 'User_Formatted_Physical_Name': 'MONEDA', 'Entity.Logical.Clasificacion del Dato': ' No DAC', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': '', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': ' No DAC', 'Entity.Physical.Dominio Principal': 'Cliente', 'Entity.Physical.Tipo de Carga': ' Tipo 1 (No Historia)', 'Entity.Physical.Tipo de Entidad': ' Referencia', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{183C3F8A-9102-4A98-97C3-3D8ACCB15311}+00000000'
+    Dependent_Objects_Ref=[1] 23. Loyalty;Moneda;R/3517;R/4234;
+
+-- 'Agencia': 3 objetos Entity --
+  id='{AE6A5EEE-E2D5-4B37-B79E-A9A943028051}+00000000' object_id='{AE6A5EEE-E2D5-4B37-B79E-A9A943028051}+00000000' fisico='AGENCIA' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Tipo Agencia;Codigo Agencia;Flag Servimatic;Fecha Apertura;Fecha Cierre;Codigo Ubigeo;Codigo Distrito;Codigo Clave Party Agencia;Tipo Rol Agencia;Tipo Propiedad;Flag Agencia Habilitada;'], 'User_Formatted_Physical_Name': 'AGENCIA', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Sub-Tipo', 'Entity.Logical.Dominio Principal': 'Clientes', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref=[1] Agencia;Agencia;Agencia;Agencia;Agencia;Agencia;Agencia;Agencia;Agencia;Agencia;Agencia;Agencia;Agencia;Agencia;Agencia;Agencia;Agencia;Agencia;Agencia;Agencia;Agencia;
+    Dependent_Objects_Ref=[1] 3. Cuenta;1. Party;Agencia;R/206;R/263;Agencia;R/302;Agencia;4. Tarjeta;R/389;R/390;R/391;Agencia;Agencia;6. Transaccion;R/443;R/485;Agencia;R/508;R/617;Agencia;Agencia;R/68...
+  id='{BAF962D1-4F8A-4B87-B338-961609EE68A1}+00000000' object_id='{BAF962D1-4F8A-4B87-B338-961609EE68A1}+00000000' fisico='M_AGENCIA' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': 'M_AGENCIA', 'Physical_Columns_Order_Ref': ['Codigo Clave Party Agencia;Tipo Rol Agencia;Codigo Agencia;Nombre Agencia;Tipo Agencia;Descripcion Tipo Agencia;Tipo Propiedad;Descripcion Tipo Propiedad;Flag Servimatic;Fecha Apertura;Fecha Cierre;Codigo Ubigeo;Descripcion Ubigeo;Codigo Distrito;Descripcion Distrito;Flag Agencia Habilitada;Codigo Clave Party Oficina;Tipo Rol Oficina;Codigo Oficina;Nombre Oficina;Codigo Clave Party Sucursal;Tipo Rol Sucursal;Codigo Sucursal;Nombre Sucursal;Codigo Clave Party Zona;Tipo Rol Zona;Codigo Zona;Nombre Zona;Codigo Clave Party Area Nucleo;Tipo Rol Area Nucleo;Codigo Area Nucleo;Nombre Area Nucleo;FlgRegEliminadoFuente;FecRegEliminadoFuente;FecRutina;FecActualizacionRegistro;TipFrecuenciaRegistro;FecDia;'], 'User_Formatted_Physical_Name': 'M_AGENCIA', 'Entity.Logical.Clasificacion del Dato': ' No DAC', 'Entity.Logical.Tipo de Entidad': 'Sub-Tipo', 'Entity.Logical.Dominio Principal': '', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': ' No DAC', 'Entity.Physical.Dominio Principal': 'Cliente', 'Entity.Physical.Tipo de Carga': ' Tipo 1 (No Historia)', 'Entity.Physical.Tipo de Entidad': ' Referencia', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{00353C8F-8BC9-401F-AE60-2C1DCFE85FE5}+00000000'
+    Dependent_Objects_Ref=[1] 17. Evento;Agencia;R/3643;
+  id='{55AF7511-6788-42CB-9E11-496C418A5681}+00000000' object_id='{55AF7511-6788-42CB-9E11-496C418A5681}+00000000' fisico='AGENCIA' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Tipo Agencia;Codigo Agencia;Flag Servimatic;Fecha Apertura;Fecha Cierre;Codigo Ubigeo;Codigo Distrito;Codigo Clave Party Agencia;Tipo Rol Agencia;Tipo Propiedad;Flag Agencia Habilitada;'], 'User_Formatted_Physical_Name': 'AGENCIA', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Sub-Tipo', 'Entity.Logical.Dominio Principal': 'Clientes', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{9D494D4D-D2AC-4619-BC95-B2EEAD51DFE4}+00000000'
+    Dependent_Objects_Ref=[1] 3. Cuenta;R/390;R/508;R/617;Agencia;R/689;
+
+-- 'Tipo Credito': 3 objetos Entity --
+  id='{6414E7DB-D8F7-42C5-8DDE-CCD447B089A4}+00000000' object_id='{6414E7DB-D8F7-42C5-8DDE-CCD447B089A4}+00000000' fisico='TIPOCREDITO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Tipo Credito;Descripcion Tipo Credito;Tipo Credito SBS;'], 'User_Formatted_Physical_Name': 'TIPOCREDITO', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': 'Clientes', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref=[1] Tipo Credito;Tipo Credito;Tipo Credito;Tipo Credito;Tipo Credito;Tipo Credito;Tipo Credito;Tipo Credito;Tipo Credito;
+    Dependent_Objects_Ref=[1] 3. Cuenta;1. Party;Tipo Credito;R/214;Tipo Credito;Tipo Credito;R/529;Tipo Credito;R/746;R/906;Tipo Credito;Tipo Credito;R/2017;Tipo Credito;R/2448;R/2449;Tipo Credito;Tipo ...
+  id='{F38FF247-028B-43DB-8E55-5681321D7AE3}+00000000' object_id='{F38FF247-028B-43DB-8E55-5681321D7AE3}+00000000' fisico='TIPOCREDITO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Tipo Credito;Descripcion Tipo Credito;Tipo Credito SBS;'], 'User_Formatted_Physical_Name': 'TIPOCREDITO', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': 'Clientes', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{77F2D5DD-B68E-41D3-9F09-4789A3A9CC6F}+00000000'
+    Dependent_Objects_Ref=[1] 22. Provision;R/214;R/529;Tipo Credito;R/2833;
+  id='{3F8949B6-17E1-44BA-A75C-6CE53D4798B6}+00000000' object_id='{3F8949B6-17E1-44BA-A75C-6CE53D4798B6}+00000000' fisico='TIPOCREDITO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Tipo Credito;Descripcion Tipo Credito;Tipo Credito SBS;'], 'User_Formatted_Physical_Name': 'TIPOCREDITO', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': 'Clientes', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{542E5E08-09A6-4C7E-B797-76E00A6D25D0}+00000000'
+    Dependent_Objects_Ref=[1] 3. Cuenta;R/214;R/529;Tipo Credito;
+
+-- 'Tipo Actividad Economica': 2 objetos Entity --
+  id='{8E1B9556-F261-4DE0-A172-38C4910EF7C2}+00000000' object_id='{8E1B9556-F261-4DE0-A172-38C4910EF7C2}+00000000' fisico='TIPOACTIVIDADECONOMICA' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Tipo Actividad Economica;Descripcion Tipo Actividad Economica;'], 'User_Formatted_Physical_Name': 'TIPOACTIVIDADECONOMICA', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': 'Clientes', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref=[1] Tipo Actividad Economica;Tipo Actividad Economica;Tipo Actividad Economica;Tipo Actividad Economica;Tipo Actividad Economica;Tipo Actividad Economica;Tipo Actividad Economic...
+    Dependent_Objects_Ref=[1] 3. Cuenta;1. Party;Tipo Actividad Economica;R/216;R/217;R/258;Tipo Actividad Economica;Tipo Actividad Economica;6. Transaccion;Tipo Actividad Economica;R/2015;21. Evaluacion...
+  id='{84812F15-7DA0-4CBC-B7D5-EDFCF5906287}+00000000' object_id='{84812F15-7DA0-4CBC-B7D5-EDFCF5906287}+00000000' fisico='TIPOACTIVIDADECONOMICA' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Tipo Actividad Economica;Descripcion Tipo Actividad Economica;'], 'User_Formatted_Physical_Name': 'TIPOACTIVIDADECONOMICA', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': 'Clientes', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{7D9EE31C-EFE2-4101-A89F-34E7207FE3C1}+00000000'
+    Dependent_Objects_Ref=[1] 22. Provision;Tipo Actividad Economica;R/2834;
+
+-- 'SubSegmento': 4 objetos Entity --
+  id='{A528D103-3741-4E44-8F39-24391B77B2AC}+00000000' object_id='{A528D103-3741-4E44-8F39-24391B77B2AC}+00000000' fisico='SUBSEGMENTO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Subsegmento General;Codigo Subsegmento;Descripcion Subsegmento;Codigo Externo Segmento;'], 'User_Formatted_Physical_Name': 'SUBSEGMENTO', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': 'Clientes', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref=[1] SubSegmento;SubSegmento;SubSegmento;SubSegmento;
+    Dependent_Objects_Ref=[1] 1. Party;SubSegmento;R/221;R/222;SubSegmento;6. Transaccion;SubSegmento;SubSegmento;R/4169;
+  id='{D1E1E719-32FF-41A3-9AFF-F33C706E6F18}+00000000' object_id='{D1E1E719-32FF-41A3-9AFF-F33C706E6F18}+00000000' fisico='SUBSEGMENTO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Subsegmento General;Codigo Subsegmento;Descripcion Subsegmento;Codigo Externo Segmento;'], 'User_Formatted_Physical_Name': 'SUBSEGMENTO', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': 'Clientes', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{E3A300A9-66C3-4115-8288-7077028FA266}+00000000'
+    Dependent_Objects_Ref=[1] 18. Cotizacion;SubSegmento;R/2848;
+  id='{3F0C2D3D-6900-4F05-98D8-3E604B02B596}+00000000' object_id='{3F0C2D3D-6900-4F05-98D8-3E604B02B596}+00000000' fisico='SUBSEGMENTO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': 'SUBSEGMENTO', 'Physical_Columns_Order_Ref': ['Codigo Subsegmento;Descripcion Subsegmento;Codigo Subsegmento General;Descripcion Subsegmento General;Codigo Segmento;Descripcion Segmento;Codigo Externo Segmento;'], 'User_Formatted_Physical_Name': 'SUBSEGMENTO', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': '', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Dominio Principal': 'Cliente', 'Entity.Physical.Tipo de Carga': ' Tipo 1 (No Historia)', 'Entity.Physical.Tipo de Entidad': ' Referencia', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{89C4D90B-0C5B-4F1F-8E3C-9FDB62EB0C84}+00000000'
+    Dependent_Objects_Ref=[1] 7. Campania;R/221;SubSegmento;R/6124;
+  id='{921E883B-F9A2-4B6A-9894-D50CE5027C28}+00000000' object_id='{921E883B-F9A2-4B6A-9894-D50CE5027C28}+00000000' fisico='SUBSEGMENTO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Subsegmento General;Codigo Subsegmento;Descripcion Subsegmento;Codigo Externo Segmento;'], 'User_Formatted_Physical_Name': 'SUBSEGMENTO', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': 'Clientes', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{00077DFE-8277-4152-BB13-A3D2EB4014A5}+00000000'
+    Dependent_Objects_Ref=[1] 24. Centro Contacto;SubSegmento;R/4664;
+
+-- 'Cuenta': 2 objetos Entity --
+  id='{1A681692-E3A0-45C2-870D-BF0A97996B01}+00000000' object_id='{1A681692-E3A0-45C2-870D-BF0A97996B01}+00000000' fisico='CUENTA' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': '{CD8A7A70-E9AA-4E6C-8553-828D8F29B5F4}+00000000', 'User_Formatted_Physical_Name': 'CUENTA', 'Entity.Logical.Clasificacion del Dato': ' No DAC', 'Entity.Logical.Tipo de Entidad': ' Super-Tipo', 'Entity.Logical.Dominio Principal': 'Cuenta', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref=[1] Cuenta;Cuenta;Cuenta;Cuenta;Cuenta;Cuenta;Cuenta;Cuenta;Cuenta;Cuenta;Cuenta;Cuenta;Cuenta;
+    Dependent_Objects_Ref=[1] 3. Cuenta;1. Party;Cuenta;R/227;R/324;R/325;R/336;R/337;R/346;Cuenta;Cuenta;6. Transaccion;Cuenta;Cuenta;Cuenta;Cuenta;Cuenta;Cuenta;Cuenta;Cuenta;Cuenta;R/2374;Cuenta;R/238...
+  id='{ADA04C64-0B24-4F29-8C2C-707979CF3705}+00000000' object_id='{ADA04C64-0B24-4F29-8C2C-707979CF3705}+00000000' fisico='CUENTA' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': '{53B480E7-9FA7-4751-99DE-7164070CDF16}+00000000', 'User_Formatted_Physical_Name': 'CUENTA', 'Entity.Logical.Clasificacion del Dato': ' No DAC', 'Entity.Logical.Tipo de Entidad': ' Super-Tipo', 'Entity.Logical.Dominio Principal': 'Cuenta', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{495D80A6-611D-4CCA-AB65-05735CDCB056}+00000000'
+    Dependent_Objects_Ref=[1] 3. Cuenta;R/346;Cuenta;
+
+-- 'Tipo Clasificacion Interna Party': 2 objetos Entity --
+  id='{E54DD3FB-3CE4-4333-BCDE-1F5D36F79EFE}+00000000' object_id='{E54DD3FB-3CE4-4333-BCDE-1F5D36F79EFE}+00000000' fisico='TIPOCLASIFICACIONINTERNAPARTY' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Tipo Clasificacion Interna Party;Descripcion Tipo Clasificacion Interna Party;'], 'User_Formatted_Physical_Name': 'TIPOCLASIFICACIONINTERNAPARTY', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': 'Clientes', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref=[1] Tipo Clasificacion Interna Party;Tipo Clasificacion Interna Party;Tipo Clasificacion Interna Party;Tipo Clasificacion Interna Party;Tipo Clasificacion Interna Party;Tipo Cla...
+    Dependent_Objects_Ref=[1] 3. Cuenta;1. Party;Tipo Clasificacion Interna Party;R/300;Tipo Clasificacion Interna Party;Tipo Clasificacion Interna Party;6. Transaccion;Tipo Clasificacion Interna Party;R...
+  id='{E73774B5-28BF-4396-B8EE-9BEC779693D0}+00000000' object_id='{E73774B5-28BF-4396-B8EE-9BEC779693D0}+00000000' fisico='TIPOCLASIFICACIONINTERNAPARTY' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Tipo Clasificacion Interna Party;Descripcion Tipo Clasificacion Interna Party;'], 'User_Formatted_Physical_Name': 'TIPOCLASIFICACIONINTERNAPARTY', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': 'Clientes', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{89839C89-2BD3-4B50-B123-AB06C1F4ED9D}+00000000'
+    Dependent_Objects_Ref=[1] 6. Transaccion;Tipo Clasificacion Interna Party;R/2520;
+
+-- 'Cuenta Financiera': 6 objetos Entity --
+  id='{8FB777B7-9E7C-4395-B337-C881CC44F8FD}+00000000' object_id='{8FB777B7-9E7C-4395-B337-C881CC44F8FD}+00000000' fisico='CUENTAFINANCIERA' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Moneda;Tipo Seguro Desgravamen;Fecha Ultima Actualizacion Tipo Seguro Desgravamen;Tipo Procedencia Banco;Codigo Clave Cuenta;Flag Adquisicion Cartera;Flag Transferencia Cartera;Numero Adquisicion Cartera;Numero Transferencia Cartera;Tipo Credito;Codigo Operador;Tipo Bloqueo Producto;Codigo Clave Tipo Estado Cuenta;Tipo Motivo Termino;Fecha Bloqueo;Tipo Clasificacion Interna Cuenta Financiera;Fecha Transferencia;Tipo Mancomuno;Codigo Clave Party Sucursal Apertura;Tipo Rol Sucursal Apertura;Codigo Clave Party Cliente;Tipo Rol Cliente;'], 'User_Formatted_Physical_Name': 'CUENTAFINANCIERA', 'Entity.Logical.Clasificacion del Dato': ' No DAC', 'Entity.Logical.Tipo de Entidad': ' Sub-Tipo', 'Entity.Logical.Dominio Principal': 'Cuenta', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref=[1] Cuenta Financiera;Cuenta Financiera;Cuenta Financiera;Cuenta Financiera;Cuenta Financiera;Cuenta Financiera;Cuenta Financiera;Cuenta Financiera;Cuenta Financiera;Cuenta Fina...
+    Dependent_Objects_Ref=[1] 3. Cuenta;1. Party;Cuenta Financiera;R/319;R/320;R/339;R/342;R/347;R/355;4. Tarjeta;Cuenta Financiera;Cuenta Financiera;R/406;R/407;R/408;6. Transaccion;R/529;R/588;Cuenta F...
+  id='{FB843C7C-5ADD-48F5-9A36-AC1CE6DC25EC}+00000000' object_id='{FB843C7C-5ADD-48F5-9A36-AC1CE6DC25EC}+00000000' fisico='CUENTAFINANCIERA' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Moneda;Tipo Seguro Desgravamen;Fecha Ultima Actualizacion Tipo Seguro Desgravamen;Tipo Procedencia Banco;Codigo Clave Cuenta;Flag Adquisicion Cartera__2;Flag Transferencia Cartera__2;Numero Adquisicion Cartera__2;Numero Transferencia Cartera;Tipo Credito;Codigo Operador;Tipo Bloqueo Producto;Codigo Clave Tipo Estado Cuenta;Tipo Motivo Termino;Fecha Bloqueo;Tipo Clasificacion Interna Cuenta Financiera;Fecha Transferencia;Tipo Mancomuno;Codigo Clave Party Sucursal Apertura;Tipo Rol Sucursal Apertura;Codigo Clave Party Cliente;Tipo Rol Cliente;'], 'User_Formatted_Physical_Name': 'CUENTAFINANCIERA', 'Entity.Logical.Clasificacion del Dato': ' No DAC', 'Entity.Logical.Tipo de Entidad': ' Sub-Tipo', 'Entity.Logical.Dominio Principal': 'Cuenta', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{96298B2F-E129-4A4A-8599-A6025113A1C0}+00000000'
+    Dependent_Objects_Ref=[1] 22. Provision;R/529;R/1241;R/2413;Cuenta Financiera;R/2830;
+  id='{2CADF734-6172-4B88-AA59-3CFB51815D14}+00000000' object_id='{2CADF734-6172-4B88-AA59-3CFB51815D14}+00000000' fisico='CUENTAFINANCIERA' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Moneda;Tipo Seguro Desgravamen;Fecha Ultima Actualizacion Tipo Seguro Desgravamen;Tipo Procedencia Banco;Codigo Clave Cuenta;Flag Adquisicion Cartera;Flag Transferencia Cartera;Numero Adquisicion Cartera;Numero Transferencia Cartera;Tipo Credito;Codigo Operador;Tipo Bloqueo Producto;Codigo Clave Tipo Estado Cuenta;Tipo Motivo Termino;Fecha Bloqueo;Tipo Clasificacion Interna Cuenta Financiera;Fecha Transferencia;Tipo Mancomuno;Codigo Clave Party Sucursal Apertura;Tipo Rol Sucursal Apertura;Codigo Clave Party Cliente;Tipo Rol Cliente;'], 'User_Formatted_Physical_Name': 'CUENTAFINANCIERA', 'Entity.Logical.Clasificacion del Dato': ' No DAC', 'Entity.Logical.Tipo de Entidad': ' Sub-Tipo', 'Entity.Logical.Dominio Principal': 'Cuenta', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{25C1A807-52EE-4278-A5A7-937280DA73DD}+00000000'
+    Dependent_Objects_Ref=[1] 3. Cuenta;R/320;R/342;R/347;R/406;R/408;R/529;R/588;R/620;Cuenta Financiera;R/686;R/727;R/1241;R/2413;R/2971;
+  id='{DD0D2ED0-B417-444C-9021-0B16D7C71739}+00000000' object_id='{DD0D2ED0-B417-444C-9021-0B16D7C71739}+00000000' fisico='CUENTAFINANCIERA' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Moneda;Tipo Seguro Desgravamen;Fecha Ultima Actualizacion Tipo Seguro Desgravamen;Tipo Procedencia Banco;Codigo Clave Cuenta;Flag Adquisicion Cartera;Flag Transferencia Cartera;Numero Adquisicion Cartera;Numero Transferencia Cartera;Tipo Credito;Codigo Operador;Tipo Bloqueo Producto;Codigo Clave Tipo Estado Cuenta;Tipo Motivo Termino;Fecha Bloqueo;Tipo Clasificacion Interna Cuenta Financiera;Fecha Transferencia;Tipo Mancomuno;Codigo Clave Party Sucursal Apertura;Tipo Rol Sucursal Apertura;Codigo Clave Party Cliente;Tipo Rol Cliente;'], 'User_Formatted_Physical_Name': 'CUENTAFINANCIERA', 'Entity.Logical.Clasificacion del Dato': ' No DAC', 'Entity.Logical.Tipo de Entidad': ' Sub-Tipo', 'Entity.Logical.Dominio Principal': 'Cuenta', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{DC54C627-7655-46AB-93B2-1771D632F7D8}+00000000'
+    Dependent_Objects_Ref=[1] 6. Transaccion;R/320;R/406;R/589;R/620;R/1241;Cuenta Financiera;R/1359;R/1360;R/2965;R/4180;
+  id='{F802CF37-0B5C-467D-B9A5-CFDC80F15E54}+00000000' object_id='{F802CF37-0B5C-467D-B9A5-CFDC80F15E54}+00000000' fisico='CUENTAFINANCIERA' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Moneda;Tipo Seguro Desgravamen;Fecha Ultima Actualizacion Tipo Seguro Desgravamen;Tipo Procedencia Banco;Codigo Clave Cuenta;Flag Adquisicion Cartera;Flag Transferencia Cartera;Numero Adquisicion Cartera;Numero Transferencia Cartera;Tipo Credito;Codigo Operador;Tipo Bloqueo Producto;Codigo Clave Tipo Estado Cuenta;Tipo Motivo Termino;Fecha Bloqueo;Tipo Clasificacion Interna Cuenta Financiera;Fecha Transferencia;Tipo Mancomuno;Codigo Clave Party Sucursal Apertura;Tipo Rol Sucursal Apertura;Codigo Clave Party Cliente;Tipo Rol Cliente;'], 'User_Formatted_Physical_Name': 'CUENTAFINANCIERA', 'Entity.Logical.Clasificacion del Dato': ' No DAC', 'Entity.Logical.Tipo de Entidad': ' Sub-Tipo', 'Entity.Logical.Dominio Principal': 'Cuenta', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref=[1] Cuenta Financiera;Cuenta Financiera;
+    Dependent_Objects_Ref=[1] 6. Transaccion;R/589;Cuenta Financiera;R/1327;Cuenta Financiera;R/3521;
+  id='{406C80B0-ECE5-4F39-8A90-BB1D2691C543}+00000000' object_id='{406C80B0-ECE5-4F39-8A90-BB1D2691C543}+00000000' fisico='CUENTAFINANCIERA' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Moneda;Tipo Seguro Desgravamen;Fecha Ultima Actualizacion Tipo Seguro Desgravamen;Tipo Procedencia Banco;Codigo Clave Cuenta;Flag Adquisicion Cartera;Flag Transferencia Cartera;Numero Adquisicion Cartera;Numero Transferencia Cartera;Tipo Credito;Codigo Operador;Tipo Bloqueo Producto;Codigo Clave Tipo Estado Cuenta;Tipo Motivo Termino;Fecha Bloqueo;Tipo Clasificacion Interna Cuenta Financiera;Fecha Transferencia;Tipo Mancomuno;Codigo Clave Party Sucursal Apertura;Tipo Rol Sucursal Apertura;Codigo Clave Party Cliente;Tipo Rol Cliente;'], 'User_Formatted_Physical_Name': 'CUENTAFINANCIERA', 'Entity.Logical.Clasificacion del Dato': ' No DAC', 'Entity.Logical.Tipo de Entidad': ' Sub-Tipo', 'Entity.Logical.Dominio Principal': 'Cuenta', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{3692713F-8F78-44EC-8544-BD3BB4140EE4}+00000000'
+    Dependent_Objects_Ref=[1] 3. Cuenta;R/320;R/588;R/620;R/642;R/686;Cuenta Financiera;R/1339;R/2413;
+
+-- 'Producto': 3 objetos Entity --
+  id='{FCB7B236-E0CB-44A3-B9AB-CBE75C31EC0A}+00000000' object_id='{FCB7B236-E0CB-44A3-B9AB-CBE75C31EC0A}+00000000' fisico='PRODUCTO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Producto;Descripcion Producto;Tipo Clasificacion Interna Producto;Codigo Clave Producto;'], 'User_Formatted_Physical_Name': 'PRODUCTO', 'Entity.Logical.Clasificacion del Dato': ' No DAC', 'Entity.Logical.Tipo de Entidad': ' Super-Tipo', 'Entity.Logical.Dominio Principal': 'Producto', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref=[1] Producto;Producto;Producto;Producto;Producto;Producto;Producto;Producto;Producto;Producto;Producto;Producto;Producto;Producto;Producto;Producto;Producto;Producto;Producto;Pr...
+    Dependent_Objects_Ref=[1] 3. Cuenta;1. Party;Producto;5. Producto;Producto;R/321;R/323;Producto;6. Transaccion;R/506;Producto;R/520;R/575;R/587;Producto;Producto;Producto;R/663;R/697;R/698;Producto;7...
+  id='{B1214D03-BA45-4E23-AF94-F3BC116D2389}+00000000' object_id='{B1214D03-BA45-4E23-AF94-F3BC116D2389}+00000000' fisico='PRODUCTO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Producto;Descripcion Producto;Tipo Clasificacion Interna Producto;Codigo Clave Producto;'], 'User_Formatted_Physical_Name': 'PRODUCTO', 'Entity.Logical.Clasificacion del Dato': ' No DAC', 'Entity.Logical.Tipo de Entidad': ' Super-Tipo', 'Entity.Logical.Dominio Principal': 'Producto', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{62269831-5AB2-4A9B-933B-5BED12C15B94}+00000000'
+    Dependent_Objects_Ref=[1] 3. Cuenta;7. Campania;R/506;Producto;R/4666;
+  id='{DB06A598-56DA-4289-94A1-CA25E87133F3}+00000000' object_id='{DB06A598-56DA-4289-94A1-CA25E87133F3}+00000000' fisico='PRODUCTO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Producto;Descripcion Producto;Tipo Clasificacion Interna Producto;Codigo Clave Producto;'], 'User_Formatted_Physical_Name': 'PRODUCTO', 'Entity.Logical.Clasificacion del Dato': ' No DAC', 'Entity.Logical.Tipo de Entidad': ' Super-Tipo', 'Entity.Logical.Dominio Principal': 'Producto', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{FB0A0F30-40E3-41C8-BD14-56E69874363B}+00000000'
+    Dependent_Objects_Ref=[1] 23. Loyalty;Producto;R/4278;R/4572;
+
+-- 'Tarjeta Credito': 2 objetos Entity --
+  id='{84877823-FC57-4E0E-99BF-1159886AD2D1}+00000000' object_id='{84877823-FC57-4E0E-99BF-1159886AD2D1}+00000000' fisico='TARJETACREDITO' owner='Modelo de Datos UDV'
+    diseno={'Is_Physical_Only': False, 'Is_Logical_Only': True, 'Physical_Name': '%EntityName()', 'User_Formatted_Physical_Name': 'TARJETACREDITO', 'Entity.Logical.Clasificacion del Dato': ' No DAC', 'Entity.Logical.Tipo de Entidad': ' Sub-Tipo', 'Entity.Logical.Dominio Principal': 'Tarjeta', 'Entity.Logical.Universal': ' Si', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref=[1] Tarjeta Credito;Tarjeta Credito;Tarjeta Credito;Tarjeta Credito;
+    Dependent_Objects_Ref=[1] 3. Cuenta;Tarjeta Credito;R/328;R/329;4. Tarjeta;Tarjeta Credito;6. Transaccion;Tarjeta Credito;R/856;Tarjeta Credito;R/1646;R/3491;R/3492;
+  id='{54ED0FEF-578A-40D0-B57D-44869592ACE7}+00000000' object_id='{54ED0FEF-578A-40D0-B57D-44869592ACE7}+00000000' fisico='M_TARJETACREDITO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': 'M_TARJETACREDITO', 'Physical_Columns_Order_Ref': ['Codigo Clave Tarjeta;Codigo Clave Cuenta;Fecha Apertura Tarjeta;Fecha Activacion Tarjeta;Fecha Bloqueo Tarjeta;Tipo Bloqueo Tarjeta;Descripcion Tipo Bloqueo Tarjeta;Tipo Cambio Tarjeta;Descripcion Tipo Cambio Tarjeta;Fecha Confeccion Tarjeta;Flag Tarjeta Activa;Tipo Estado Tarjeta;Descripcion Tipo Estado Tarjeta;Tipo Disenio Tarjeta;Descripcion Tipo Disenio Tarjeta;Flag Titular Tarjeta;Flag Titular Tarjeta Vigente;Codigo Clave Party Cliente Tarjeta Adicional;Tipo Rol Cliente Tarjeta Adicional;Codigo Aplicativo;FlgRegEliminadoFuente;FecRegEliminadoFuente;FecRutina;FecActualizacionRegistro;TipFrecuenciaRegistro;FecDia;'], 'User_Formatted_Physical_Name': 'M_TARJETACREDITO', 'Entity.Logical.Clasificacion del Dato': ' No DAC', 'Entity.Logical.Tipo de Entidad': ' Sub-Tipo', 'Entity.Logical.Dominio Principal': 'Tarjeta', 'Entity.Logical.Universal': ' No', 'Entity.Physical.Clasificacion del Dato': ' No DAC', 'Entity.Physical.Dominio Principal': 'Tarjeta', 'Entity.Physical.Tipo de Carga': ' Tipo 1 (No Historia)', 'Entity.Physical.Tipo de Entidad': ' Sub-Tipo', 'Entity.Physical.Universal': ' No', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Dependent_Objects_Ref=[1] 17. Evento;R/2854;
+
+-- 'Tarjeta': 2 objetos Entity --
+  id='{6FFC8F99-4AAE-46F9-8E73-A46035B13F5F}+00000000' object_id='{6FFC8F99-4AAE-46F9-8E73-A46035B13F5F}+00000000' fisico='TARJETA' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Clave Tarjeta;Fecha Apertura Tarjeta;Fecha Activacion Tarjeta;Tipo Bloqueo Tarjeta;Fecha Bloqueo Tarjeta;Fecha Confeccion Tarjeta;Tipo Clasificacion Interna Tarjeta;Flag Tarjeta Activa;Codigo Clave Tipo Estado Tarjeta;Tipo Disenio Tarjeta;Flag Comercio Electronico;Fecha Actualizacion Estado Tarjeta;Flag Tiitular Tarjeta;'], 'User_Formatted_Physical_Name': 'TARJETA', 'Entity.Logical.Clasificacion del Dato': ' No DAC', 'Entity.Logical.Tipo de Entidad': ' Super-Tipo', 'Entity.Logical.Dominio Principal': 'Tarjeta', 'Entity.Logical.Universal': ' Si', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref=[1] Tarjeta;Tarjeta;Tarjeta;Tarjeta;Tarjeta;Tarjeta;Tarjeta;Tarjeta;Tarjeta;Tarjeta;
+    Dependent_Objects_Ref=[1] 3. Cuenta;1. Party;Tarjeta;R/327;R/328;R/330;4. Tarjeta;Tarjeta;6. Transaccion;R/502;Tarjeta;R/527;R/690;Tarjeta;R/780;R/855;8. Solicitud;R/950;R/998;R/1171;R/1172;Tarjeta;R...
+  id='{B9AF57F4-3B5A-465E-BE6C-E525173BF6E0}+00000000' object_id='{B9AF57F4-3B5A-465E-BE6C-E525173BF6E0}+00000000' fisico='TARJETA' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Clave Tarjeta;Fecha Apertura Tarjeta;Fecha Activacion Tarjeta;Tipo Bloqueo Tarjeta;Fecha Bloqueo Tarjeta;Fecha Confeccion Tarjeta;Tipo Clasificacion Interna Tarjeta;Flag Tarjeta Activa;Codigo Clave Tipo Estado Tarjeta;Tipo Disenio Tarjeta;Flag Comercio Electronico;Fecha Actualizacion Estado Tarjeta;Flag Tiitular Tarjeta;'], 'User_Formatted_Physical_Name': 'TARJETA', 'Entity.Logical.Clasificacion del Dato': ' No DAC', 'Entity.Logical.Tipo de Entidad': ' Super-Tipo', 'Entity.Logical.Dominio Principal': 'Tarjeta', 'Entity.Logical.Universal': ' Si', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{CC45AD97-E69E-42AB-9CCA-DF2F9F9E3612}+00000000'
+    Dependent_Objects_Ref=[1] 3. Cuenta;R/502;Tarjeta;R/690;R/950;
+
+-- 'Sectorista': 3 objetos Entity --
+  id='{AE4BC8D8-5485-490C-BA93-DF4897DE9F9C}+00000000' object_id='{AE4BC8D8-5485-490C-BA93-DF4897DE9F9C}+00000000' fisico='SECTORISTA' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Sectorista;Nombre Sectorista;Flag Sectorista Bolson;Codigo Sector;Tipo Categoria Sectorista;Codigo Clave Party Colaborador;Tipo Rol Colaborador;Nombre Corto Sectorista;Nombre Abreviacion Sectorista;Codigo Banca Sectorista;Codigo Clave Party Agencia;Tipo Rol Agencia;Flag Sectorista Habilitado;Codigo Clave Tipo Estado Funcionario;'], 'User_Formatted_Physical_Name': 'SECTORISTA', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'No Definido', 'Entity.Logical.Dominio Principal': '', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref=[1] Sectorista;Sectorista;Sectorista;Sectorista;Sectorista;Sectorista;Sectorista;Sectorista;Sectorista;
+    Dependent_Objects_Ref=[1] 3. Cuenta;1. Party;Sectorista;R/341;R/392;R/396;Sectorista;6. Transaccion;R/438;R/445;R/507;R/508;Sectorista;R/602;Sectorista;Sectorista;Sectorista;R/1100;Sectorista;R/1278;...
+  id='{1F84ADA7-D235-48E9-8BBE-4D970BDAD2AC}+00000000' object_id='{1F84ADA7-D235-48E9-8BBE-4D970BDAD2AC}+00000000' fisico='SECTORISTA' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Sectorista;Nombre Sectorista;Flag Sectorista Bolson;Codigo Sector;Tipo Categoria Sectorista;Codigo Clave Party Colaborador;Tipo Rol Colaborador;Nombre Corto Sectorista;Nombre Abreviacion Sectorista;Codigo Banca Sectorista;Codigo Clave Party Agencia;Tipo Rol Agencia;Flag Sectorista Habilitado;Codigo Clave Tipo Estado Funcionario;'], 'User_Formatted_Physical_Name': 'SECTORISTA', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'No Definido', 'Entity.Logical.Dominio Principal': '', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{67980133-0E7B-4A8D-8C07-875A077F3333}+00000000'
+    Dependent_Objects_Ref=[1] 3. Cuenta;R/341;R/392;R/508;R/602;Sectorista;R/1768;
+  id='{812FD72D-1825-4EA1-8C6B-91BFA173311C}+00000000' object_id='{812FD72D-1825-4EA1-8C6B-91BFA173311C}+00000000' fisico='SECTORISTA' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Sectorista;Nombre Sectorista;Flag Sectorista Bolson;Codigo Sector;Tipo Categoria Sectorista;Codigo Clave Party Colaborador;Tipo Rol Colaborador;Nombre Corto Sectorista;Nombre Abreviacion Sectorista;Codigo Banca Sectorista;Codigo Clave Party Agencia;Tipo Rol Agencia;Flag Sectorista Habilitado;Codigo Clave Tipo Estado Funcionario;'], 'User_Formatted_Physical_Name': 'SECTORISTA', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'No Definido', 'Entity.Logical.Dominio Principal': '', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{290FF12B-3442-46F1-AB7C-6D9B9514F3A6}+00000000'
+    Dependent_Objects_Ref=[1] 6. Transaccion;R/602;Sectorista;R/1100;R/1768;
+
+-- 'Tipo Procedencia Banco': 2 objetos Entity --
+  id='{1E9F6DE5-3041-41A8-9B87-ADF90C82B29B}+00000000' object_id='{1E9F6DE5-3041-41A8-9B87-ADF90C82B29B}+00000000' fisico='TIPOPROCEDENCIABANCO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Tipo Procedencia Banco;Descripcion Tipo Procedencia Banco;'], 'User_Formatted_Physical_Name': 'TIPOPROCEDENCIABANCO', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': 'Cliente, Tarjeta de Credito', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref=[1] Tipo Procedencia Banco;Tipo Procedencia Banco;Tipo Procedencia Banco;Tipo Procedencia Banco;Tipo Procedencia Banco;
+    Dependent_Objects_Ref=[1] 3. Cuenta;1. Party;Tipo Procedencia Banco;R/342;R/350;Tipo Procedencia Banco;Tipo Procedencia Banco;Tipo Procedencia Banco;Tipo Procedencia Banco;
+  id='{752CD18C-EAFE-45C4-8BA9-A1F999125789}+00000000' object_id='{752CD18C-EAFE-45C4-8BA9-A1F999125789}+00000000' fisico='TIPOPROCEDENCIABANCO' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Tipo Procedencia Banco;Descripcion Tipo Procedencia Banco;'], 'User_Formatted_Physical_Name': 'TIPOPROCEDENCIABANCO', 'Entity.Logical.Clasificacion del Dato': 'No Definido', 'Entity.Logical.Tipo de Entidad': 'Referencia', 'Entity.Logical.Dominio Principal': 'Cliente, Tarjeta de Credito', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{BCC3EE50-D122-490F-AA1A-7A4105F15903}+00000000'
+    Dependent_Objects_Ref=[1] 3. Cuenta;R/342;R/350;Tipo Procedencia Banco;
+
+-- 'Producto Cuenta': 2 objetos Entity --
+  id='{9B8C4F42-3132-410B-A763-BCE54F1B3C8D}+00000000' object_id='{9B8C4F42-3132-410B-A763-BCE54F1B3C8D}+00000000' fisico='PRODUCTOCUENTA' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Clave Cuenta;Fecha Apertura;Fecha Cierre;Codigo Clave Party Cliente;Tipo Rol Cliente;Monto Apertura;Codigo Clave Party Agencia;Tipo Rol Agencia;Tipo Clasificacion Interna Producto Cuenta;'], 'User_Formatted_Physical_Name': 'PRODUCTOCUENTA', 'Entity.Logical.Clasificacion del Dato': ' No DAC', 'Entity.Logical.Tipo de Entidad': ' Sub-Tipo', 'Entity.Logical.Dominio Principal': 'Cuenta', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref=[1] Producto Cuenta;Producto Cuenta;Producto Cuenta;Producto Cuenta;Producto Cuenta;Producto Cuenta;Producto Cuenta;Producto Cuenta;Producto Cuenta;Producto Cuenta;Producto Cuen...
+    Dependent_Objects_Ref=[1] 3. Cuenta;Producto Cuenta;R/346;R/347;R/349;Producto Cuenta;Producto Cuenta;6. Transaccion;R/431;R/617;Producto Cuenta;Producto Cuenta;R/648;R/653;R/657;Producto Cuenta;Prod...
+  id='{237B94F0-2A5D-49F0-9E6F-6BE54266815E}+00000000' object_id='{237B94F0-2A5D-49F0-9E6F-6BE54266815E}+00000000' fisico='PRODUCTOCUENTA' owner='Modelo de Datos UDV'
+    diseno={'Physical_Name': '%EntityName()', 'Physical_Columns_Order_Ref': ['Codigo Clave Cuenta;Fecha Apertura;Fecha Cierre;Codigo Clave Party Cliente;Tipo Rol Cliente;Monto Apertura;Codigo Clave Party Agencia;Tipo Rol Agencia;Tipo Clasificacion Interna Producto Cuenta;'], 'User_Formatted_Physical_Name': 'PRODUCTOCUENTA', 'Entity.Logical.Clasificacion del Dato': ' No DAC', 'Entity.Logical.Tipo de Entidad': ' Sub-Tipo', 'Entity.Logical.Dominio Principal': 'Cuenta', 'Entity.Logical.Universal': 'No Definido', 'Entity.Physical.Clasificacion del Dato': 'No Definido', 'Entity.Physical.Tipo de Carga': 'No Definido', 'Entity.Physical.Tipo de Entidad': 'No Definido', 'Entity.Physical.Universal': 'No Definido', 'Entity.Physical.Tabla Cross': 'No Definido', 'Entity.Physical.Estado Cloud': 'No Definido', 'Entity.Logical.Filtro Despliegue 2021': 'NO', 'Entity.Logical.Tipo de Vista': 'Regular', 'Entity.Physical.Frecuencia Vacuum': 'DAILY_15 days', 'Entity.Physical.Frecuencia Vacuum_1': 'CUSTOM_90 days'}
+    Shapes_Ref='{1C6B0E2E-1569-4F92-846D-E02A5694E5C9}+00000000'
+    Dependent_Objects_Ref=[1] 3. Cuenta;R/346;R/347;R/349;R/617;Producto Cuenta;R/653;R/1447;
+... (106 nombres repetidos mas, aumente --max-nombres)
+
+== ATRIBUTOS ==
+Attribute: 17209
+Long_Id repetidos entre Attribute: 0
+
+-- 'Party': 8 atributos; 2 entidades: ids=['{79E1CA34-F847-41AE-B329-92E3CD4BAB8B}+00000000', '{A20AC027-D6BB-4B31-A6D9-3BB6AE6776A4}+00000000'] --
+    primeros atributos (id, columna): [('{F2E6A7EC-CEEC-4F31-A4B4-37CD0D1E098E}+00000000', 'CODCLAVEPARTY'), ('{F069853D-A984-4AF9-8FC0-9FDFC6E84BC6}+00000000', 'TIPCLASIFINTERNAPARTY'), ('{F7797F4D-638D-4907-A052-37742D5EA6D5}+00000000', 'CODPARTY'), ('{BDF4F538-95EE-4BE5-895E-4386D64CDA33}+00000000', 'TIPPARTYIDENTIFICACION'), ('{599F9634-662C-4EE4-9C3B-F350524FE041}+00000000', 'CODCLAVEPARTY2'), ('{2BE98AD9-8F1E-4884-BAD9-7DC74EB18A25}+00000000', 'TIPCLASIFINTERNAPARTY'), ('{87207A1C-17BB-4316-9833-B8D4E96A647F}+00000000', 'CODPARTY'), ('{645B33FB-5D57-434F-BFBE-BE0ACB1AAAAB}+00000000', 'TIPPARTYIDENTIFICACION')]
+
+-- 'Tipo Estado Civil': 4 atributos; 2 entidades: ids=['{3DFC929D-477C-44F8-B92C-96B7AA2AFAC7}+00000000', '{A595DFCC-AB20-47C2-87CD-694502229896}+00000000'] --
+    primeros atributos (id, columna): [('{815C2B78-B0A8-483B-B01E-4E5D8F1430EE}+00000000', 'TIPESTADOCIVIL'), ('{06468A48-7132-413C-8652-C0C33EBF4EDE}+00000000', 'DESTIPESTADOCIVIL'), ('{1E9AE10B-70C5-4B1C-9EA2-D674C70EF0BE}+00000000', 'TIPESTADOCIVIL'), ('{239A1F99-B5FE-4055-B05F-B7AEC0522660}+00000000', 'DESTIPESTADOCIVIL')]
+
+-- 'Party Rol': 9 atributos; 3 entidades: ids=['{4345F55B-2E07-4819-9964-A4D46E3064B9}+00000000', '{23A7E70E-885B-40F1-A186-3F9BB482C1AE}+00000000', '{20B2DCA9-432C-44B0-9B22-1FD6C96E39D3}+00000000'] --
+    primeros atributos (id, columna): [('{DDEA602C-EF1A-4129-8836-F86DDB3BDFBE}+00000000', 'CODCLAVEPARTY'), ('{735D629F-86C5-429B-B0D0-72844200A56F}+00000000', 'TIPROL'), ('{52BE21EC-4E9A-4E9D-9E5D-EC716A50521C}+00000000', 'CODCLAVETIPESTADO'), ('{3714E7E1-07D9-45CA-9FC5-9F2C4FB0F14B}+00000000', 'CODCLAVEPARTY2'), ('{5F5B1ABD-096C-4B81-B028-355A2871D138}+00000000', 'TIPROL'), ('{D2B86873-9758-433A-AF8C-71C831168579}+00000000', 'CODCLAVETIPESTADO'), ('{FA7F6ED5-D24F-411C-B428-ED09239690B2}+00000000', 'CODCLAVEPARTY'), ('{B7B60C14-0230-4991-BBCC-792D937E3E85}+00000000', 'TIPROL')]
+
+-- 'Cliente': 264 atributos; 7 entidades: ids=['{6932A8F0-07B7-47FF-8D11-3037F82D3A40}+00000000', '{3F18B604-1F50-4C0D-A6C9-B761F1E64934}+00000000', '{674FB7E2-D9C0-4E4C-9580-C08D6C79E712}+00000000', '{4ABB2728-A6FA-41D3-9CCE-CD550662EA4D}+00000000', '{02628BE8-18C3-48DA-A1B2-D13B2FC725D3}+00000000', '{9CBFB4DF-5FBA-432F-938E-7A07701AD319}+00000000', '{6B47B43C-AFAF-4E60-8872-4FF43EB56E2C}+00000000'] --
+    primeros atributos (id, columna): [('{DB68AEE0-A783-479B-A41A-8FD1689DF849}+00000000', 'TIPCLASIFCLI'), ('{21F36AF6-C208-4FA2-B431-20D2FC40B467}+00000000', 'TIPMARCACLI'), ('{2569695D-D190-4511-AD3B-8132104985E8}+00000000', 'TIPCREDITO'), ('{9B37913E-C8DD-4598-A81A-5A8F63AC991F}+00000000', 'TIPBCA'), ('{8E99B9DE-A6B4-4909-9BAE-18F50676D75C}+00000000', 'FECINGRESODATO'), ('{264AE5F9-435B-408B-A74F-F26F2255378D}+00000000', 'CODSUBSEGMENTO'), ('{4EBC2C05-2B1C-49FE-96A3-F5509646D624}+00000000', 'FLGSIPAN'), ('{FB73EDD8-0C51-44AD-9E42-A50DFF623127}+00000000', 'TIPUSOREGPER')]
+
+-- 'Colaborador': 85 atributos; 2 entidades: ids=['{77D5FD6A-CD5B-47DD-A212-1501D03D52C2}+00000000', '{833E8F41-64C4-4707-A099-2B27E5CC7B9C}+00000000'] --
+    primeros atributos (id, columna): [('{A7A0AFCF-CD54-4C4E-B445-46F05C48D2B1}+00000000', 'CODCOLABORADOR'), ('{3954F3E7-DC84-4520-9042-5230B563D220}+00000000', 'CODCLAVEPARTYCOLABORADOR'), ('{CDC3153C-B7B5-47C5-ACE9-0200FDA54B77}+00000000', 'TIPROLCOLABORADOR'), ('{913050CC-947C-4BB2-A9E3-3BCA561A8B5A}+00000000', 'CODSECTOR'), ('{8DB0D635-5137-476F-9EDC-42AF3B884DA4}+00000000', 'CODUBICACIONFISICACOLABORADOR'), ('{E55C9378-C8F8-4B2E-865A-1DB5070FA7EF}+00000000', 'TIPCLASECONTRATOCOLABORADOR'), ('{F076F5D2-434C-497E-BAD4-AC2685BF5E73}+00000000', 'TIPRELLABORALCOLABORADOR'), ('{CADB2814-F892-48E4-9FAF-8BE1F90B5A5C}+00000000', 'TIPABSENTISMOLICENCIACOLABORADOR')]
+
+-- 'Contacto': 7 atributos; 2 entidades: ids=['{03AA913F-FD9F-43CE-9661-D4310BC2A93E}+00000000', '{72683BE4-D6D2-4BEA-82B1-D578A21B93AD}+00000000'] --
+    primeros atributos (id, columna): [('{47DF2C49-FECB-4468-BD21-584722AFB905}+00000000', 'CODCLAVECONTACTO'), ('{68907A00-A161-4FCE-8AC3-3F19B2591A01}+00000000', 'TIPCLASIFINTERNACONTACTO'), ('{B5D8911A-956A-4CA1-B180-FB62B086D57F}+00000000', 'CODCLAVEPARTYCONTACTO'), ('{4D22498C-0A8D-42D8-B1A2-017486579426}+00000000', 'TIPROLCONTACTO'), ('{F446C4EE-D533-4B80-A78F-69BF1AA64ADE}+00000000', 'CODINTERNOCOMPUTACIONALAPP'), ('{3818F004-602C-43A9-859D-D49A30EA1D9D}+00000000', 'CODINTERNOCONTACTOAPP'), ('{E9594C5A-BCF3-4C99-B3D9-7A9850398681}+00000000', 'CODAPP')]
+
+-- 'Tipo Estado': 65 atributos; 13 entidades: ids=['{1364EC0B-547F-4FAA-A3E4-9DDA98388DA2}+00000000', '{1770D134-7EC4-4F3E-BB80-F637BEBFD703}+00000000', '{2DBCBDC6-DCDF-4257-B53C-1D10930B7551}+00000000', '{2D0ABD66-3C70-49A6-9B76-DCD9DA5153DE}+00000000', '{2A6BA6A5-9F3C-4B23-B426-620D35BBA584}+00000000', '{15198F59-8132-44AF-B6E5-E6A70B6571EE}+00000000', '{9188864C-6B5A-4AE0-B441-C2560706BA6B}+00000000', '{EA689274-5482-44D2-A747-DE1BA9A7B210}+00000000', '{D49085B6-23AB-41BE-8650-8F36C92083D3}+00000000', '{925228D0-6EB3-4355-85FE-FFE6DA675385}+00000000', '{7C65603E-DC54-44F3-8CD4-94FA969FA4A0}+00000000', '{4C5F348D-425D-4B97-94C6-F18C19E619D5}+00000000', '{CB1B47D2-3EFA-4226-884F-D12D0400342E}+00000000'] --
+    primeros atributos (id, columna): [('{105B70EB-9733-4298-BBFC-49ECEBF5D1CC}+00000000', 'TIPESTADO'), ('{500945AB-3B2A-458A-A7F1-058B7D78CEA3}+00000000', 'DESTIPESTADO'), ('{D6418150-B916-4472-9195-20AF97C6602F}+00000000', 'TIPCLASIFINTERNAESTADO'), ('{B911083A-1E9A-4387-AD1A-533BE06F0EB2}+00000000', 'CODCLAVETIPESTADO'), ('{921D0CD9-BD30-4C6E-87A0-4F35768DE16E}+00000000', 'TIPESTADO'), ('{9AC5224D-3489-4631-98CA-0BB1748E4F79}+00000000', 'DESTIPESTADO'), ('{9D336024-0199-4CFA-BB4C-F28907051D0D}+00000000', 'TIPCLASIFINTERNAESTADO'), ('{934C780A-CC44-45B5-8C41-9C543F08C06D}+00000000', 'DESTIPCLASIFINTERNAESTADO')]
+
+-- 'Pais': 16 atributos; 2 entidades: ids=['{61025B30-DCF9-46A1-991E-145A6124E220}+00000000', '{2E7637A9-C634-406D-9F6D-E47CCA5330EA}+00000000'] --
+    primeros atributos (id, columna): [('{1CEC2A26-2E10-4F77-AD9A-1E4F02A7FE3B}+00000000', 'DESPAIS'), ('{738F5995-C827-43B7-9031-A23B9910F3BC}+00000000', 'CODISO2PAIS'), ('{597D8433-CBD3-42F1-B1FE-837FE7D53A3F}+00000000', 'CODISO3PAIS'), ('{4FE749B2-50C3-4517-8BE7-7D233E3A9224}+00000000', 'CODISONUMERICOPAIS'), ('{85CB8CB2-9301-49C2-86CA-123806B7F3E3}+00000000', 'CODBCPPAIS'), ('{DF38D2C1-19B3-44A5-B2FD-8DB5D382C262}+00000000', 'CODCLAVEUBICACION'), ('{E3233283-3CDB-40B8-80E6-2F023E8D5382}+00000000', 'CODPAIS'), ('{5818B100-5E79-4D1D-9474-2F414535CF6B}+00000000', 'FLGISO2PAIS')]
+
+-- 'Departamento': 10 atributos; 3 entidades: ids=['{1D028987-DFC1-4F87-BAF5-54C7708C54FC}+00000000', '{F9B4355E-BF61-46E5-ACC6-C9BE17E857DF}+00000000', '{70F035EB-DA7F-401E-A2D2-9DB6065B028F}+00000000'] --
+    primeros atributos (id, columna): [('{D6E51E05-31A9-4EC8-AB3F-BE44521368AB}+00000000', 'DESDEPARTAMENTO'), ('{FA41634A-717B-40AF-8019-FA4437EFBBE8}+00000000', 'CODCLAVEUBICACION'), ('{BF7AFCAF-3F85-405D-8487-6EBEFF8A5F9A}+00000000', 'CODPAIS'), ('{8DB872D0-C453-4B30-841A-1E15658AB5DB}+00000000', 'CODDEPARTAMENTO'), ('{BE52A734-B7AE-40B2-A4B5-0F5C12A6F1F9}+00000000', 'DESDEPARTAMENTO'), ('{D2D8F371-1CA0-4B92-B80B-3D13ACB3CAD6}+00000000', 'CODDEPARTAMENTO'), ('{DC93310D-E2A3-48F2-8F39-0BFAF85273FA}+00000000', 'DESDEPARTAMENTO'), ('{9A60EDA6-410E-461D-8185-45679F6B9C53}+00000000', 'CODCLAVEUBICACION')]
+
+-- 'Provincia': 8 atributos; 2 entidades: ids=['{831EB547-AEAF-4965-8C92-199BB02F6BF7}+00000000', '{5FD2B4E4-9155-4A13-A69E-7BF04F906EE5}+00000000'] --
+    primeros atributos (id, columna): [('{4452DB69-6A09-420F-AA4D-9145DBED982A}+00000000', 'DESPROVINCIA'), ('{21B58994-A341-4A09-B4EA-9F44DC5947F0}+00000000', 'CODCLAVEUBICACION'), ('{F8DA080A-E3AC-4BB5-B0A6-C420F47626D1}+00000000', 'CODDEPARTAMENTO'), ('{D08DE796-F4B7-466E-A360-F3298C2AC406}+00000000', 'CODPROVINCIA'), ('{FF155FBB-5F18-4D84-BD90-3D4E6C0AFFA5}+00000000', 'DESPROVINCIA'), ('{7CCB8588-7391-4DA2-871D-B8B1708C68F2}+00000000', 'CODCLAVEUBICACION'), ('{02CE5F30-AD0A-4FBD-AB32-E481F2465112}+00000000', 'CODDEPARTAMENTO'), ('{E3CD0567-C5B4-4632-B9CB-9C3717D4CF40}+00000000', 'CODPROVINCIA')]
+
+-- 'Distrito': 10 atributos; 2 entidades: ids=['{6DDE698D-D088-4FC1-9935-D947C7E10D60}+00000000', '{B21DA10A-3FD2-4B17-9C1A-3ADEC8AD53C0}+00000000'] --
+    primeros atributos (id, columna): [('{51993981-856D-428F-B749-2C9889C6C433}+00000000', 'DESDISTRITO'), ('{BE9C4CE7-197E-4693-B4F3-C5C5ECBB25A5}+00000000', 'CODCLAVEUBICACION'), ('{266688A4-286D-4003-98A6-30D0AF4F9835}+00000000', 'CODPROVINCIA'), ('{54148046-883A-48D7-8D2B-26FC43345549}+00000000', 'CODDISTRITO'), ('{D7544282-4A29-490A-BCB6-33E3B3ADF412}+00000000', 'CODUBIGEO'), ('{FC517704-3A5C-48F2-BA69-407A1A26B43B}+00000000', 'DESDISTRITO'), ('{782FBFA5-A50A-4C77-86E2-B530A106EB15}+00000000', 'CODCLAVEUBICACION'), ('{4EC2E898-FF32-4168-BE9E-0BF1F04C2B5F}+00000000', 'CODPROVINCIA')]
+
+-- 'Moneda': 20 atributos; 6 entidades: ids=['{1F7A3D23-1FF8-4D5B-A77D-3202B483457E}+00000000', '{9F89D027-4F70-410D-B7A7-601EB390200B}+00000000', '{0EF59147-47F8-4638-B8FF-1F37FEE05C0A}+00000000', '{D5A17FB4-B231-480C-93CF-087B4E8457A4}+00000000', '{2D5F6A2D-E52C-4C5D-BC8E-A803CE9035E9}+00000000', '{731F7141-412D-4D4C-ADB6-D77DBEE5C4F1}+00000000'] --
+    primeros atributos (id, columna): [('{B50014B7-8132-43B1-8375-56EFC6D91745}+00000000', 'CODMONEDA'), ('{F90D6696-67CA-45CE-B320-812840A574FA}+00000000', 'DESMONEDA'), ('{08E6FC0B-30FF-4F8E-81CF-E32B2BD9E8CE}+00000000', 'CODISOMONEDA'), ('{B6075CAE-D310-4887-89C5-6664F9EE8956}+00000000', 'CODMONEDA'), ('{4EFC0C0A-9BFF-4CBB-9A95-58962EFA5D7C}+00000000', 'CODISOMONEDA'), ('{87687739-010B-462C-81FD-0C9BCC00C875}+00000000', 'DESISOMONEDA'), ('{B4AAACE6-8EE4-492C-87B8-E6E464A989F9}+00000000', 'CODISONUMERICOMONEDA'), ('{F4942A67-CF44-49E1-A65E-DEC05388EA16}+00000000', 'CODMONEDA')]
+
+-- 'Agencia': 60 atributos; 3 entidades: ids=['{AE6A5EEE-E2D5-4B37-B79E-A9A943028051}+00000000', '{BAF962D1-4F8A-4B87-B338-961609EE68A1}+00000000', '{55AF7511-6788-42CB-9E11-496C418A5681}+00000000'] --
+    primeros atributos (id, columna): [('{4E5DA7DA-A864-4483-8733-1C0AD944F57C}+00000000', 'TIPAGE'), ('{713D8B67-13F8-449D-9C40-11EA16135770}+00000000', 'CODAGE'), ('{1D6E687A-DF72-4DAA-A677-4BA9E67493E1}+00000000', 'FLGSERVIMATIC'), ('{E7667EE2-468A-436A-80A6-9A74CC802DF8}+00000000', 'FECAPERTURA'), ('{A1BC4DCE-3463-4DD1-B63D-7FDA81DE03F8}+00000000', 'FECCIERRE'), ('{E97B88DA-B034-4C4C-9948-2DC241ACDC7C}+00000000', 'CODUBIGEO'), ('{4CD46885-8CA7-4103-9682-33B2A5962D1C}+00000000', 'CODDISTRITO'), ('{FE195739-203F-42D1-8FFF-A873A659B482}+00000000', 'CODCLAVEPARTYAGE')]
+
+-- 'Tipo Credito': 9 atributos; 3 entidades: ids=['{6414E7DB-D8F7-42C5-8DDE-CCD447B089A4}+00000000', '{F38FF247-028B-43DB-8E55-5681321D7AE3}+00000000', '{3F8949B6-17E1-44BA-A75C-6CE53D4798B6}+00000000'] --
+    primeros atributos (id, columna): [('{5BD814FA-D825-4175-AC9D-47448AAD415E}+00000000', 'TIPCREDITO'), ('{A8B5223E-5DEF-475A-9672-9CEE129DA738}+00000000', 'DESTIPCREDITO'), ('{EF8CCD2E-E52B-4679-9A6A-AF15A79A519F}+00000000', 'TIPCREDITOSBS'), ('{92509FB7-EE7B-498E-BB25-3B26F406E57C}+00000000', 'TIPCREDITO'), ('{AF285ED0-69C1-44BF-8DAA-C4361D07E5FE}+00000000', 'DESTIPCREDITO'), ('{877B72E4-C7A9-4C94-91C5-AF5F187B4615}+00000000', 'TIPCREDITOSBS'), ('{983A9AA6-78EA-4536-B9C3-F7C4628A16D5}+00000000', 'TIPCREDITO'), ('{980E3B0A-D896-43DC-A86F-69473A4BE3F4}+00000000', 'DESTIPCREDITO')]
+
+-- 'Tipo Actividad Economica': 4 atributos; 2 entidades: ids=['{8E1B9556-F261-4DE0-A172-38C4910EF7C2}+00000000', '{84812F15-7DA0-4CBC-B7D5-EDFCF5906287}+00000000'] --
+    primeros atributos (id, columna): [('{83A9C55F-F337-4C14-9836-79FB4FB7C0CF}+00000000', 'TIPACTIVIDADECONOMICA'), ('{19B4CE21-E7EF-4C06-8ADA-E3BD30F0A0A6}+00000000', 'DESTIPACTIVIDADECONOMICA'), ('{50CDE934-E5FD-40E8-B76D-3F3EDAB0D80D}+00000000', 'TIPACTIVIDADECONOMICA'), ('{393E4865-6AD0-44F0-AB18-B42D7D749CD7}+00000000', 'DESTIPACTIVIDADECONOMICA')]
+
+-- 'SubSegmento': 19 atributos; 4 entidades: ids=['{A528D103-3741-4E44-8F39-24391B77B2AC}+00000000', '{D1E1E719-32FF-41A3-9AFF-F33C706E6F18}+00000000', '{3F0C2D3D-6900-4F05-98D8-3E604B02B596}+00000000', '{921E883B-F9A2-4B6A-9894-D50CE5027C28}+00000000'] --
+    primeros atributos (id, columna): [('{3AC85B8F-E4BA-46A6-8384-138375400CAC}+00000000', 'CODSUBSEGMENTOGENERAL'), ('{9F13FA55-E6BA-4850-9F2F-45247D9BF8B8}+00000000', 'CODSUBSEGMENTO'), ('{11D0480D-4F57-458A-82A7-27A5947265F4}+00000000', 'DESSUBSEGMENTO'), ('{9BA502B9-EE5D-4962-A166-8D87641A1BC0}+00000000', 'CODEXTERNOSEGMENTO'), ('{2FDDD143-61B8-491F-9272-D8AB904380E0}+00000000', 'CODSUBSEGMENTOGENERAL'), ('{4206C523-EF0E-4BD7-8E1D-28DA20DA0A75}+00000000', 'CODSUBSEGMENTO'), ('{A8C4D6A7-1BAB-436C-B6D4-DD7A1F34D3F8}+00000000', 'DESSUBSEGMENTO'), ('{E461FB73-1F2E-4B73-B3E4-A51BA2377C0A}+00000000', 'CODEXTERNOSEGMENTO')]
+
+-- 'Cuenta': 2 atributos; 2 entidades: ids=['{1A681692-E3A0-45C2-870D-BF0A97996B01}+00000000', '{ADA04C64-0B24-4F29-8C2C-707979CF3705}+00000000'] --
+    primeros atributos (id, columna): [('{CD8A7A70-E9AA-4E6C-8553-828D8F29B5F4}+00000000', 'CODCLAVECTA'), ('{53B480E7-9FA7-4751-99DE-7164070CDF16}+00000000', 'CODCLAVECTA')]
+
+-- 'Tipo Clasificacion Interna Party': 4 atributos; 2 entidades: ids=['{E54DD3FB-3CE4-4333-BCDE-1F5D36F79EFE}+00000000', '{E73774B5-28BF-4396-B8EE-9BEC779693D0}+00000000'] --
+    primeros atributos (id, columna): [('{AEDC4AD6-558E-40E9-8197-68E1CA137F86}+00000000', 'TIPCLASIFINTERNAPARTY'), ('{CA108FDF-A769-41E5-8014-EACC7D4D11A0}+00000000', 'DESTIPCLASIFINTERNAPARTY'), ('{9B9AAE96-B047-406A-B597-7A976F8A8D4A}+00000000', 'DESTIPCLASIFINTERNAPARTY'), ('{FB05FD6C-11A1-4657-93BA-E37C1F9A31FA}+00000000', 'TIPCLASIFINTERNAPARTY')]
+
+-- 'Cuenta Financiera': 132 atributos; 6 entidades: ids=['{8FB777B7-9E7C-4395-B337-C881CC44F8FD}+00000000', '{FB843C7C-5ADD-48F5-9A36-AC1CE6DC25EC}+00000000', '{2CADF734-6172-4B88-AA59-3CFB51815D14}+00000000', '{DD0D2ED0-B417-444C-9021-0B16D7C71739}+00000000', '{F802CF37-0B5C-467D-B9A5-CFDC80F15E54}+00000000', '{406C80B0-ECE5-4F39-8A90-BB1D2691C543}+00000000'] --
+    primeros atributos (id, columna): [('{E316B7C5-6FF1-41E1-976D-7B48C2C5ACE9}+00000000', 'CODMONEDA'), ('{A191F02A-9449-487E-AB5B-797F40F7A7D1}+00000000', 'TIPSEGURODESGRAVAMEN'), ('{46E64F13-85D8-4E3C-926A-674454DCEC18}+00000000', 'FECULTACTUALIZACIONTIPSEGURODESGRAVAMEN'), ('{684FA50E-5DF7-4692-B205-4AFEE85B51F9}+00000000', 'TIPPROCEDENCIABCO'), ('{89BACF3F-6C0E-4FC4-815E-A1DC1813D215}+00000000', 'CODCLAVECTA'), ('{949531E7-3118-4AF9-95AA-E4A262DA6260}+00000000', 'FLGADQUISICIONCARTERA'), ('{AD1E4D80-4654-47BC-BE8C-202500E1CB54}+00000000', 'FLGTRANSFERENCIACARTERA'), ('{BD19D7B5-3843-4DF2-9A8A-A75B196903EF}+00000000', 'NUMADQUISICIONCARTERA')]
+
+-- 'Producto': 12 atributos; 3 entidades: ids=['{FCB7B236-E0CB-44A3-B9AB-CBE75C31EC0A}+00000000', '{B1214D03-BA45-4E23-AF94-F3BC116D2389}+00000000', '{DB06A598-56DA-4289-94A1-CA25E87133F3}+00000000'] --
+    primeros atributos (id, columna): [('{BB87FDC2-B083-47AE-A3CA-0A6535434465}+00000000', 'CODPRODUCTO'), ('{EC68E038-7634-40DA-8959-3091BD8862F6}+00000000', 'DESPRODUCTO'), ('{8FE7BF34-78F7-40B6-951B-A28B3931103A}+00000000', 'TIPCLASIFINTERNAPRODUCTO'), ('{5F9AC754-7A23-4E53-BC7F-67E753D7C422}+00000000', 'CODCLAVEPRODUCTO'), ('{F47FB092-34B6-4DDF-AE40-ED01D2071412}+00000000', 'CODPRODUCTO'), ('{58149346-C5C6-476E-BE62-766AFE9A3A9C}+00000000', 'DESPRODUCTO'), ('{D910B206-8BE0-4822-BCC3-775FD691C28A}+00000000', 'TIPCLASIFINTERNAPRODUCTO'), ('{B8B4D581-42AE-436B-A33E-1BE40D672DDE}+00000000', 'CODCLAVEPRODUCTO')]
+
+-- 'Tarjeta Credito': 50 atributos; 2 entidades: ids=['{84877823-FC57-4E0E-99BF-1159886AD2D1}+00000000', '{54ED0FEF-578A-40D0-B57D-44869592ACE7}+00000000'] --
+    primeros atributos (id, columna): [('{31F6036F-9E06-49F5-8688-3ACDE17CF527}+00000000', 'CODCLAVECTA'), ('{5790976A-4674-4004-BA8C-85BF00E6255A}+00000000', 'CODCLAVETARJETA'), ('{FDF5D8F1-D7A5-44A6-951F-68F588698BA9}+00000000', 'FLGTITULARTARJETAVIG'), ('{89CDF54A-4665-46CF-AC80-144E0AEC1865}+00000000', 'CODCLAVEPARTYCLIADICIONAL'), ('{B9423182-B35B-4929-AD1F-72163433FDAA}+00000000', 'TIPROLCLIADICIONAL'), ('{E4EAAF75-D07A-45E5-8514-43FAAD4941D3}+00000000', 'TIPCOBERTURATARJETA'), ('{2576F28A-25D4-4BCB-8CE5-764723E46B88}+00000000', 'CODSERVTARJETA'), ('{770B2168-2BB2-453F-B8DA-3DF85F27FE58}+00000000', 'CODCLAVETARJETAORIGENACTUALIZACION')]
+
+-- 'Tarjeta': 26 atributos; 2 entidades: ids=['{6FFC8F99-4AAE-46F9-8E73-A46035B13F5F}+00000000', '{B9AF57F4-3B5A-465E-BE6C-E525173BF6E0}+00000000'] --
+    primeros atributos (id, columna): [('{C9FB050D-88C7-42D4-BD26-73F8F3BF2787}+00000000', 'TIPCLASIFINTERNATARJETA'), ('{D8930AE0-74F6-43B3-9CE2-25FF7059367B}+00000000', 'CODCLAVETARJETA'), ('{FF464DC8-3CD4-4105-8032-3BB00542A4D3}+00000000', 'FECACTIVACIONTARJETA'), ('{3FE248FC-EE4D-4B66-9A7A-D703C0729FD7}+00000000', 'TIPBLOQUEOTARJETA'), ('{2F46A371-D58C-47DB-8A2F-775E90DFD26A}+00000000', 'FECBLOQUEOTARJETA'), ('{6C85F609-F200-4668-8B92-2C90A1F0B620}+00000000', 'FECAPERTURATARJETA'), ('{D8416723-F0BA-4B45-AC5C-5491C2153821}+00000000', 'FECCONFECCIONTARJETA'), ('{C9BD5D29-78FD-4E43-BB6F-8394E2C9194F}+00000000', 'FLGTARJETAACTIVA')]
+
+-- 'Sectorista': 42 atributos; 3 entidades: ids=['{AE4BC8D8-5485-490C-BA93-DF4897DE9F9C}+00000000', '{1F84ADA7-D235-48E9-8BBE-4D970BDAD2AC}+00000000', '{812FD72D-1825-4EA1-8C6B-91BFA173311C}+00000000'] --
+    primeros atributos (id, columna): [('{49B531BF-BF6F-4288-BFDC-97E7C6ACBA43}+00000000', 'CODSECTORISTA'), ('{18664BB6-D730-4FA6-8985-143F80F8A8A5}+00000000', 'NBRSECTORISTA'), ('{DD8FF613-4F67-46DE-AC42-D372F9E259D4}+00000000', 'FLGSECTORISTABOLSON'), ('{3FF70313-6BE1-4316-8EE5-8DE9B2ACF726}+00000000', 'CODSECTOR'), ('{582A1BA7-4C78-404B-BAB1-3475D71C1B8D}+00000000', 'TIPCATEGSECTORISTA'), ('{72C71A2C-7DB9-447E-B9B5-D8AFE281AB21}+00000000', 'CODCLAVEPARTYCOLABORADOR'), ('{834AA03F-C14F-4FFF-94D9-CB952D5D18FF}+00000000', 'TIPROLCOLABORADOR'), ('{C54412D3-D0D1-4EAB-96F5-22DE96EE5DCB}+00000000', 'NBRCORTOSECTORISTA')]
+
+-- 'Tipo Procedencia Banco': 4 atributos; 2 entidades: ids=['{1E9F6DE5-3041-41A8-9B87-ADF90C82B29B}+00000000', '{752CD18C-EAFE-45C4-8BA9-A1F999125789}+00000000'] --
+    primeros atributos (id, columna): [('{27750DF4-DB68-4752-BA67-62CD27B4A632}+00000000', 'TIPPROCEDENCIABCO'), ('{4F0CE1E3-5CEF-4593-B9B7-714555C945AD}+00000000', 'DESTIPPROCEDENCIABCO'), ('{BCFCBC64-DAF7-4733-A2D1-CCEC8CCA511B}+00000000', 'TIPPROCEDENCIABCO'), ('{B3BB7F02-720D-4A28-BA4D-152B27DF29D7}+00000000', 'DESTIPPROCEDENCIABCO')]
+
+-- 'Producto Cuenta': 18 atributos; 2 entidades: ids=['{9B8C4F42-3132-410B-A763-BCE54F1B3C8D}+00000000', '{237B94F0-2A5D-49F0-9E6F-6BE54266815E}+00000000'] --
+    primeros atributos (id, columna): [('{5537DA52-FAE7-4628-970F-7767A6ECAEB2}+00000000', 'CODCLAVECTA'), ('{F224037F-823D-4A0B-84F9-1E9E9EA1E451}+00000000', 'FECAPERTURA'), ('{8D2251E3-137A-483F-9882-20BE7CC303E1}+00000000', 'FECCIERRE'), ('{FDC86009-8214-41E2-9089-43B6CFC4E7CC}+00000000', 'CODCLAVEPARTYCLI'), ('{6751B77F-4BCB-488F-A389-DDC0650CB69B}+00000000', 'TIPROLCLI'), ('{3F8280CC-A939-46CB-AC2F-964B6D7905A2}+00000000', 'MTOAPERTURA'), ('{6441E499-C514-4314-8B66-472DA318B376}+00000000', 'CODCLAVEPARTYAGE'), ('{AA89E67E-3640-47B9-B86F-0B10DA35BF7F}+00000000', 'TIPROLAGE')]
+
+foco 'FECDIA': 216 atributos
+  atributo='Fecha Dia Anterior' columna='FECDIAANT' entidad='Dia' owner='Modelo de Datos UDV.Dia' id='{8E6E9722-1234-41BF-9622-DA1AEEAEA718}+00000000' object_id='{8E6E9722-1234-41BF-9622-DA1AEEAEA718}+00000000'
+    refs={'Owner_Path': 'Modelo de Datos UDV.Dia', 'Parent_Domain_Ref': '{91392DB6-3ED8-4996-A019-78C5678169BF}+00000000'}
+  atributo='Fecha Dia Mes Anterior' columna='FECDIAMESANT' entidad='Dia' owner='Modelo de Datos UDV.Dia' id='{C5B4D31F-1386-42DE-95DA-262D5F9FD9F1}+00000000' object_id='{C5B4D31F-1386-42DE-95DA-262D5F9FD9F1}+00000000'
+    refs={'Owner_Path': 'Modelo de Datos UDV.Dia', 'Parent_Domain_Ref': '{91392DB6-3ED8-4996-A019-78C5678169BF}+00000000'}
+  atributo='FecDia' columna='FECDIA' entidad='HEstado Poliza Seguro' owner='Modelo de Datos UDV.HEstado Poliza Seguro' id='{8F46BC97-DFB9-4C47-A420-1F8F17C0BAF8}+00000000' object_id='{8F46BC97-DFB9-4C47-A420-1F8F17C0BAF8}+00000000'
+    refs={'Owner_Path': 'Modelo de Datos UDV.HEstado Poliza Seguro', 'Parent_Domain_Ref': '{4C995AB1-FA48-4916-B279-F633454957A1}+00000000'}
+  atributo='%AttDomain' columna='FECDIA' entidad='Fondo Seguro Deposito' owner='Modelo de Datos UDV.Fondo Seguro Deposito' id='{818DCF80-F672-48B9-BFEF-CAC2F287A533}+00000000' object_id='{818DCF80-F672-48B9-BFEF-CAC2F287A533}+00000000'
+    refs={'Owner_Path': 'Modelo de Datos UDV.Fondo Seguro Deposito', 'Parent_Domain_Ref': '{4C995AB1-FA48-4916-B279-F633454957A1}+00000000'}
+  atributo='FecDia' columna='FECDIA' entidad='Cuenta Cobranza Segmentacion' owner='Modelo de Datos UDV.Cuenta Cobranza Segmentacion' id='{2E88BC06-274F-4CD7-8432-D02AD87F4238}+00000000' object_id='{2E88BC06-274F-4CD7-8432-D02AD87F4238}+00000000'
+    refs={'Owner_Path': 'Modelo de Datos UDV.Cuenta Cobranza Segmentacion', 'Parent_Domain_Ref': '{4C995AB1-FA48-4916-B279-F633454957A1}+00000000'}
+  atributo='Fecha Dia' columna='FECDIA' entidad='Cuenta Cobranza Segmentacion Variable' owner='Modelo de Datos UDV.Cuenta Cobranza Segmentacion Variable' id='{A0A2FF1D-0D43-4CD3-9E7C-FFBBDDBA81A9}+00000000' object_id='{A0A2FF1D-0D43-4CD3-9E7C-FFBBDDBA81A9}+00000000'
+    refs={'Owner_Path': 'Modelo de Datos UDV.Cuenta Cobranza Segmentacion Variable', 'Parent_Domain_Ref': '{4C995AB1-FA48-4916-B279-F633454957A1}+00000000'}
+  atributo='%AttDomain' columna='FECDIA' entidad='Cuenta Cobranza Gestion Deuda' owner='Modelo de Datos UDV.Cuenta Cobranza Gestion Deuda' id='{F439E693-EC63-4C94-9F20-0CD2F8316316}+00000000' object_id='{F439E693-EC63-4C94-9F20-0CD2F8316316}+00000000'
+    refs={'Owner_Path': 'Modelo de Datos UDV.Cuenta Cobranza Gestion Deuda', 'Parent_Domain_Ref': '{4C995AB1-FA48-4916-B279-F633454957A1}+00000000'}
+  atributo='%AttDomain' columna='FECDIA' entidad='Cuenta Cobranza Gestion Evento' owner='Modelo de Datos UDV.Cuenta Cobranza Gestion Evento' id='{7EBC25AE-CE2C-419E-9E63-518E6C18B4FF}+00000000' object_id='{7EBC25AE-CE2C-419E-9E63-518E6C18B4FF}+00000000'
+    refs={'Owner_Path': 'Modelo de Datos UDV.Cuenta Cobranza Gestion Evento', 'Parent_Domain_Ref': '{4C995AB1-FA48-4916-B279-F633454957A1}+00000000'}
+  atributo='FecDia' columna='FECDIA' entidad='Unidad Medida' owner='Modelo de Datos UDV.Unidad Medida' id='{7B9BB2C4-F4FD-40A6-B93D-16BD584B6811}+00000000' object_id='{7B9BB2C4-F4FD-40A6-B93D-16BD584B6811}+00000000'
+    refs={'Owner_Path': 'Modelo de Datos UDV.Unidad Medida', 'Parent_Domain_Ref': '{4C995AB1-FA48-4916-B279-F633454957A1}+00000000'}
+  atributo='FecDia' columna='FECDIA' entidad='Tipo Clasificacion Interna Parametro Financiero' owner='Modelo de Datos UDV.Tipo Clasificacion Interna Parametro Financiero' id='{448573E5-AAB7-4A5E-8AC7-B3F568A95062}+00000000' object_id='{448573E5-AAB7-4A5E-8AC7-B3F568A95062}+00000000'
+    refs={'Owner_Path': 'Modelo de Datos UDV.Tipo Clasificacion Interna Parametro Financiero', 'Parent_Domain_Ref': '{4C995AB1-FA48-4916-B279-F633454957A1}+00000000'}
+  atributo='FecDia' columna='FECDIA' entidad='Parametro Financiero' owner='Modelo de Datos UDV.Parametro Financiero' id='{F71D7468-D3A5-4C97-B42E-B468EB16BB80}+00000000' object_id='{F71D7468-D3A5-4C97-B42E-B468EB16BB80}+00000000'
+    refs={'Owner_Path': 'Modelo de Datos UDV.Parametro Financiero', 'Parent_Domain_Ref': '{4C995AB1-FA48-4916-B279-F633454957A1}+00000000'}
+  atributo='FecDiaInicio' columna='FECDIAINICIO' entidad='HParametro Financiero' owner='Modelo de Datos UDV.HParametro Financiero' id='{6D9E5E66-28BA-4ABC-B6C8-E59C2D8ADC1F}+00000000' object_id='{6D9E5E66-28BA-4ABC-B6C8-E59C2D8ADC1F}+00000000'
+    refs={'Owner_Path': 'Modelo de Datos UDV.HParametro Financiero', 'Parent_Domain_Ref': '{4C995AB1-FA48-4916-B279-F633454957A1}+00000000'}
+  atributo='FecDiaFin' columna='FECDIAFIN' entidad='HParametro Financiero' owner='Modelo de Datos UDV.HParametro Financiero' id='{59561A60-63BA-4B14-B21E-9ECF1A8D9008}+00000000' object_id='{59561A60-63BA-4B14-B21E-9ECF1A8D9008}+00000000'
+    refs={'Owner_Path': 'Modelo de Datos UDV.HParametro Financiero', 'Parent_Domain_Ref': '{4C995AB1-FA48-4916-B279-F633454957A1}+00000000'}
+  atributo='FecDia' columna='FECDIA' entidad='Tipo Intermediario Financiero' owner='Modelo de Datos UDV.Tipo Intermediario Financiero' id='{6A75B5FF-4B36-40FE-A287-BB6FA62A4E61}+00000000' object_id='{6A75B5FF-4B36-40FE-A287-BB6FA62A4E61}+00000000'
+    refs={'Owner_Path': 'Modelo de Datos UDV.Tipo Intermediario Financiero', 'Parent_Domain_Ref': '{4C995AB1-FA48-4916-B279-F633454957A1}+00000000'}
+  atributo='Fecha Dia' columna='FECDIA' entidad='Retroalimentacion Distribuidor' owner='Modelo de Datos UDV.Retroalimentacion Distribuidor' id='{623EA874-6978-4819-A53D-6EA399DFCDBA}+00000000' object_id='{623EA874-6978-4819-A53D-6EA399DFCDBA}+00000000'
+    refs={'Owner_Path': 'Modelo de Datos UDV.Retroalimentacion Distribuidor', 'Parent_Domain_Ref': '{3A951709-6B0E-4D87-B148-DEA5FFCFBCE7}+00000000'}
+  atributo='%AttDomain' columna='FECDIA' entidad='Tarjeta Credito' owner='Modelo de Datos UDV.Tarjeta Credito' id='{DBADF95B-0ADC-42E7-A67C-6494D683EF32}+00000000' object_id='{DBADF95B-0ADC-42E7-A67C-6494D683EF32}+00000000'
+    refs={'Owner_Path': 'Modelo de Datos UDV.Tarjeta Credito', 'Parent_Domain_Ref': '{4C995AB1-FA48-4916-B279-F633454957A1}+00000000'}
+  atributo='%AttDomain' columna='FECDIA' entidad='Cuenta Ahorro' owner='Modelo de Datos UDV.Cuenta Ahorro' id='{771A761E-6BB9-4435-AB28-0A35E934A2FF}+00000000' object_id='{771A761E-6BB9-4435-AB28-0A35E934A2FF}+00000000'
+    refs={'Owner_Path': 'Modelo de Datos UDV.Cuenta Ahorro', 'Parent_Domain_Ref': '{4C995AB1-FA48-4916-B279-F633454957A1}+00000000'}
+  atributo='%AttDomain' columna='FECDIA' entidad='Agencia' owner='Modelo de Datos UDV.Agencia' id='{59B7791C-EBC7-4C90-A09A-5A3BDEA6215C}+00000000' object_id='{59B7791C-EBC7-4C90-A09A-5A3BDEA6215C}+00000000'
+    refs={'Owner_Path': 'Modelo de Datos UDV.Agencia', 'Parent_Domain_Ref': '{4C995AB1-FA48-4916-B279-F633454957A1}+00000000'}
+  atributo='%AttDomain' columna='FECDIA' entidad='Colaborador' owner='Modelo de Datos UDV.Colaborador' id='{4BE2B734-FA15-41A1-A460-7001068343DB}+00000000' object_id='{4BE2B734-FA15-41A1-A460-7001068343DB}+00000000'
+    refs={'Owner_Path': 'Modelo de Datos UDV.Colaborador', 'Parent_Domain_Ref': '{4C995AB1-FA48-4916-B279-F633454957A1}+00000000'}
+  atributo='Fecha Dia' columna='FECDIA' entidad='Interaccion Evento Usuario Aplicativo' owner='Modelo de Datos UDV.Interaccion Evento Usuario Aplicativo' id='{10A70439-6B0A-4663-AF76-6D41CAB99D68}+00000000' object_id='{10A70439-6B0A-4663-AF76-6D41CAB99D68}+00000000'
+    refs={'Owner_Path': 'Modelo de Datos UDV.Interaccion Evento Usuario Aplicativo', 'Parent_Domain_Ref': '{4C995AB1-FA48-4916-B279-F633454957A1}+00000000'}
+  atributo='Fecha Dia' columna='FECDIA' entidad='Tipo Interacción Evento Aplicativo' owner='Modelo de Datos UDV.Tipo Interacción Evento Aplicativo' id='{A0ABF212-8D58-48DA-81A0-DD3539C8E275}+00000000' object_id='{A0ABF212-8D58-48DA-81A0-DD3539C8E275}+00000000'
+    refs={'Owner_Path': 'Modelo de Datos UDV.Tipo Interacción Evento Aplicativo', 'Parent_Domain_Ref': '{4C995AB1-FA48-4916-B279-F633454957A1}+00000000'}
+  atributo='Fecha Dia' columna='FECDIA' entidad='Tipo Posicion Plataforma CRMO' owner='Modelo de Datos UDV.Tipo Posicion Plataforma CRMO' id='{A502A5C6-10D8-493E-B8D6-11A2A4BFDB53}+00000000' object_id='{A502A5C6-10D8-493E-B8D6-11A2A4BFDB53}+00000000'
+    refs={'Owner_Path': 'Modelo de Datos UDV.Tipo Posicion Plataforma CRMO', 'Parent_Domain_Ref': '{4C995AB1-FA48-4916-B279-F633454957A1}+00000000'}
+  atributo='Fecha Dia' columna='FECDIA' entidad='Usuario Aplicativo' owner='Modelo de Datos UDV.Usuario Aplicativo' id='{C278116F-D46B-46D0-8CF3-5FAF8091584D}+00000000' object_id='{C278116F-D46B-46D0-8CF3-5FAF8091584D}+00000000'
+    refs={'Owner_Path': 'Modelo de Datos UDV.Usuario Aplicativo', 'Parent_Domain_Ref': '{D1F75789-86EE-4187-BF2D-5F05AB9963EF}+00000004'}
+  atributo='Fecha Dia' columna='FECDIA' entidad='Tipo Matriz Seguridad Plataforma CRMO' owner='Modelo de Datos UDV.Tipo Matriz Seguridad Plataforma CRMO' id='{CC019E25-B903-4AA4-81C2-69B7CA61E893}+00000000' object_id='{CC019E25-B903-4AA4-81C2-69B7CA61E893}+00000000'
+    refs={'Owner_Path': 'Modelo de Datos UDV.Tipo Matriz Seguridad Plataforma CRMO', 'Parent_Domain_Ref': '{4C995AB1-FA48-4916-B279-F633454957A1}+00000000'}
+  atributo='FecDia' columna='FECDIA' entidad='Transaccion Caso Cliente' owner='Modelo de Datos UDV.Transaccion Caso Cliente' id='{0D5DCFC2-C3D8-4A0A-873C-2F3D19608B77}+00000000' object_id='{0D5DCFC2-C3D8-4A0A-873C-2F3D19608B77}+00000000'
+    refs={'Owner_Path': 'Modelo de Datos UDV.Transaccion Caso Cliente', 'Parent_Domain_Ref': '{4C995AB1-FA48-4916-B279-F633454957A1}+00000000'}
+  ... (+191)
+
+-- entidad de 'FECDIA': 'Dia' (1 objetos) --
+  id='{9E156156-76EE-4553-9CB3-DC59806E3C3E}+00000000' object_id='{9E156156-76EE-4553-9CB3-DC59806E3C3E}+00000000' fisico='DIA' owner='Modelo de Datos UDV'
+
+-- entidad de 'FECDIA': 'HEstado Poliza Seguro' (1 objetos) --
+  id='{0DABE208-890E-4AC3-8EB5-459342E7FDF9}+00000000' object_id='{0DABE208-890E-4AC3-8EB5-459342E7FDF9}+00000000' fisico='HESTADOPOLIZASEGURO' owner='Modelo de Datos UDV'
+
+-- entidad de 'FECDIA': 'Fondo Seguro Deposito' (1 objetos) --
+  id='{374C33D7-B715-4299-A6D3-26FDA6758BFB}+00000000' object_id='{374C33D7-B715-4299-A6D3-26FDA6758BFB}+00000000' fisico='H_FONDOSEGURODEPOSITO' owner='Modelo de Datos UDV'
+
+-- entidad de 'FECDIA': 'Cuenta Cobranza Segmentacion' (1 objetos) --
+  id='{49F2012B-D62C-43DD-9BD2-A2CBF267BAD1}+00000000' object_id='{49F2012B-D62C-43DD-9BD2-A2CBF267BAD1}+00000000' fisico='H_CUENTACOBRANZASEGMENTACION' owner='Modelo de Datos UDV'
+
+-- entidad de 'FECDIA': 'Cuenta Cobranza Segmentacion Variable' (1 objetos) --
+  id='{EE7436AB-4E12-4649-8AEB-D6AD73E756D4}+00000000' object_id='{EE7436AB-4E12-4649-8AEB-D6AD73E756D4}+00000000' fisico='H_CUENTACOBRANZASEGMENTACIONVARIABLE' owner='Modelo de Datos UDV'
+
+-- entidad de 'FECDIA': 'Cuenta Cobranza Gestion Deuda' (1 objetos) --
+  id='{E34011D9-AB2C-4115-A9D5-D3E2C6F21B03}+00000000' object_id='{E34011D9-AB2C-4115-A9D5-D3E2C6F21B03}+00000000' fisico='H_CUENTACOBRANZAGESTIONDEUDA' owner='Modelo de Datos UDV'
+
+-- entidad de 'FECDIA': 'Cuenta Cobranza Gestion Evento' (1 objetos) --
+  id='{F64683FD-BEA3-4EF7-A374-67C3F88C4202}+00000000' object_id='{F64683FD-BEA3-4EF7-A374-67C3F88C4202}+00000000' fisico='H_CUENTACOBRANZAGESTIONEVENTO' owner='Modelo de Datos UDV'
+
+-- entidad de 'FECDIA': 'Unidad Medida' (1 objetos) --
+  id='{8539EA52-52D7-4A7D-9BC3-0108892ED3F2}+00000000' object_id='{8539EA52-52D7-4A7D-9BC3-0108892ED3F2}+00000000' fisico='UNIDADMEDIDA' owner='Modelo de Datos UDV'
+
+-- entidad de 'FECDIA': 'Tipo Clasificacion Interna Parametro Financiero' (1 objetos) --
+  id='{70D5946B-B688-48A9-AB49-1BB3CA1ED1AB}+00000000' object_id='{70D5946B-B688-48A9-AB49-1BB3CA1ED1AB}+00000000' fisico='TIPOCLASIFICACIONINTERNAPARAMETROFINANCIERO' owner='Modelo de Datos UDV'
+
+-- entidad de 'FECDIA': 'Parametro Financiero' (1 objetos) --
+  id='{EC463368-0906-4970-BFF4-B005603BB6F5}+00000000' object_id='{EC463368-0906-4970-BFF4-B005603BB6F5}+00000000' fisico='PARAMETROFINANCIERO' owner='Modelo de Datos UDV'
+
+-- entidad de 'FECDIA': 'HParametro Financiero' (1 objetos) --
+  id='{20AA75CA-80CA-4785-96AF-DB7CF06F959D}+00000000' object_id='{20AA75CA-80CA-4785-96AF-DB7CF06F959D}+00000000' fisico='HPARAMETROFINANCIERO' owner='Modelo de Datos UDV'
+
+-- entidad de 'FECDIA': 'Tipo Intermediario Financiero' (1 objetos) --
+  id='{1D170FE4-97C8-41CF-A404-B738273F80A6}+00000000' object_id='{1D170FE4-97C8-41CF-A404-B738273F80A6}+00000000' fisico='TIPOINTERMEDIARIOFINANCIERO' owner='Modelo de Datos UDV'
+
+-- entidad de 'FECDIA': 'Retroalimentacion Distribuidor' (1 objetos) --
+  id='{E9AD1D54-5FA2-4BE7-B455-36BD670E31EC}+00000000' object_id='{E9AD1D54-5FA2-4BE7-B455-36BD670E31EC}+00000000' fisico='RETROALIMENTACIONDISTRIBUIDOR' owner='Modelo de Datos UDV'
+
+-- entidad de 'FECDIA': 'Tarjeta Credito' (2 objetos) --
+  id='{84877823-FC57-4E0E-99BF-1159886AD2D1}+00000000' object_id='{84877823-FC57-4E0E-99BF-1159886AD2D1}+00000000' fisico='TARJETACREDITO' owner='Modelo de Datos UDV'
+  id='{54ED0FEF-578A-40D0-B57D-44869592ACE7}+00000000' object_id='{54ED0FEF-578A-40D0-B57D-44869592ACE7}+00000000' fisico='M_TARJETACREDITO' owner='Modelo de Datos UDV'
+
+-- entidad de 'FECDIA': 'Cuenta Ahorro' (2 objetos) --
+  id='{63D31D64-FF88-48B1-BB44-E692EDF248CA}+00000000' object_id='{63D31D64-FF88-48B1-BB44-E692EDF248CA}+00000000' fisico='CUENTAAHORRO' owner='Modelo de Datos UDV'
+  id='{2FD432C7-BD06-4C1C-8CB8-D70F073BD579}+00000000' object_id='{2FD432C7-BD06-4C1C-8CB8-D70F073BD579}+00000000' fisico='M_CUENTAAHORRO' owner='Modelo de Datos UDV'
+
+-- entidad de 'FECDIA': 'Agencia' (3 objetos) --
+  id='{AE6A5EEE-E2D5-4B37-B79E-A9A943028051}+00000000' object_id='{AE6A5EEE-E2D5-4B37-B79E-A9A943028051}+00000000' fisico='AGENCIA' owner='Modelo de Datos UDV'
+  id='{BAF962D1-4F8A-4B87-B338-961609EE68A1}+00000000' object_id='{BAF962D1-4F8A-4B87-B338-961609EE68A1}+00000000' fisico='M_AGENCIA' owner='Modelo de Datos UDV'
+  id='{55AF7511-6788-42CB-9E11-496C418A5681}+00000000' object_id='{55AF7511-6788-42CB-9E11-496C418A5681}+00000000' fisico='AGENCIA' owner='Modelo de Datos UDV'
+
+-- entidad de 'FECDIA': 'Colaborador' (2 objetos) --
+  id='{77D5FD6A-CD5B-47DD-A212-1501D03D52C2}+00000000' object_id='{77D5FD6A-CD5B-47DD-A212-1501D03D52C2}+00000000' fisico='COLABORADOR' owner='Modelo de Datos UDV'
+  id='{833E8F41-64C4-4707-A099-2B27E5CC7B9C}+00000000' object_id='{833E8F41-64C4-4707-A099-2B27E5CC7B9C}+00000000' fisico='M_COLABORADOR' owner='Modelo de Datos UDV'
+
+-- entidad de 'FECDIA': 'Interaccion Evento Usuario Aplicativo' (1 objetos) --
+  id='{A292486E-0375-47BB-BCB8-D99CD98EB670}+00000000' object_id='{A292486E-0375-47BB-BCB8-D99CD98EB670}+00000000' fisico='H_INTERACCIONEVENTOUSUARIOAPLICATIVO' owner='Modelo de Datos UDV'
+
+-- entidad de 'FECDIA': 'Tipo Interacción Evento Aplicativo' (1 objetos) --
+  id='{D1D29CB0-CFFA-43AA-9B73-6E63C2C57E4A}+00000000' object_id='{D1D29CB0-CFFA-43AA-9B73-6E63C2C57E4A}+00000000' fisico='M_DESTIPINTERACCIONEVENTOAPLICATIVO' owner='Modelo de Datos UDV'
+
+-- entidad de 'FECDIA': 'Tipo Posicion Plataforma CRMO' (1 objetos) --
+  id='{049536BF-6192-489E-8488-C4E31F8C603B}+00000000' object_id='{049536BF-6192-489E-8488-C4E31F8C603B}+00000000' fisico='M_DESTIPOPOSICIONAPLICATIVO' owner='Modelo de Datos UDV'
+
+-- entidad de 'FECDIA': 'Usuario Aplicativo' (1 objetos) --
+  id='{D18F199B-264F-4932-A9DC-6E4AB293FBFE}+00000000' object_id='{D18F199B-264F-4932-A9DC-6E4AB293FBFE}+00000000' fisico='M_USUARIOAPLICATIVO' owner='Modelo de Datos UDV'
+
+-- entidad de 'FECDIA': 'Tipo Matriz Seguridad Plataforma CRMO' (1 objetos) --
+  id='{7F7C881C-D4D4-48AB-A838-F04BF6999A51}+00000000' object_id='{7F7C881C-D4D4-48AB-A838-F04BF6999A51}+00000000' fisico='M_DESTIPOMATRIZSEGURIDADAPLICATIVO' owner='Modelo de Datos UDV'
+
+-- entidad de 'FECDIA': 'Transaccion Caso Cliente' (1 objetos) --
+  id='{B3D87642-B58F-4CF5-831F-F6E0E8620700}+00000000' object_id='{B3D87642-B58F-4CF5-831F-F6E0E8620700}+00000000' fisico='TRANSACCIONCASOCLIENTE' owner='Modelo de Datos UDV'
+
+== CLAVES ==
+Key_Group: 5325; Key_Group_Member: 6975
+Key_Group con Relationship_Ref: 3470
+propiedades de miembro candidatas a referencia: ['Attribute_Ref', 'Key_Group_Member_Order', 'Owner_Path']
+  miembro='Codigo Clave Party' kg='XPKParty' entidad='XPKParty' ref='{F2E6A7EC-CEEC-4F31-A4B4-37CD0D1E098E}+00000000' orden=1
+  miembro='Tipo Clasificacion Interna Party' kg='XIF2Party' entidad='XIF2Party' ref='{F069853D-A984-4AF9-8FC0-9FDFC6E84BC6}+00000000' orden=1
+  miembro='Codigo Clave Party' kg='XPKPersona Juridica' entidad='XPKPersona Juridica' ref='{02DB1BA5-9776-4D96-B3ED-1E2C32E0EDF6}+00000000' orden=1
+  miembro='Codigo Clasificacion Industria' kg='XIF2Persona Juridica' entidad='XIF2Persona Juridica' ref='{37972520-A99D-468E-9907-DC6868918BC6}+00000000' orden=1
+  miembro='Tipo Actividad Economica' kg='XIF3Persona Juridica' entidad='XIF3Persona Juridica' ref='{0B334B1E-2DAC-4630-8118-B26810268BED}+00000000' orden=1
+  kg='XPKParty' entidad='Party' id='{567E6D16-67D0-4928-AF70-6C73CE74DE05}+00000000' tipo='PK'
+  kg='XIF2Party' entidad='Party' id='{7B6A39CD-B564-49EB-9C35-AC34210A41A5}+00000000' tipo='IF2'
+  kg='XPKPersona Juridica' entidad='Persona Juridica' id='{964FE8C7-B3F9-477B-A0E8-AD14FC512C2A}+00000000' tipo='PK'
+  kg='XIF2Persona Juridica' entidad='Persona Juridica' id='{041268EA-E841-41C3-8CE2-682E08B4B7D4}+00000000' tipo='IF2'
+  kg='XIF3Persona Juridica' entidad='Persona Juridica' id='{325152BB-F628-4F18-B05A-4B82358F5FD0}+00000000' tipo='IF3'
+
+== RELATIONSHIP ==
+Relationship: 3497
+  'R/93' id='{39C1470B-B8DE-4D5A-9F08-3D226DDB5D11}+00000000' refs={'Owner_Path': 'Modelo de Datos UDV', 'Key_Group_Ref': '{567E6D16-67D0-4928-AF70-6C73CE74DE05}+00000000', 'Parent_Update_Rule': 10001, 'Parent_Delete_Rule': 10005, 'Parent_Insert_Rule': 0, 'Child_Update_Rule': 10012, 'Child_Delete_Rule': 0, 'Child_Insert_Rule': 10008, 'Parent_To_Child_Verb_Phrase': 'Party es un Individuo', 'Parent_Entity_Ref': '{79E1CA34-F847-41AE-B329-92E3CD4BAB8B}+00000000', 'Child_Entity_Ref': '{5FE045FE-0E8D-4CCD-A278-EBB578B43F94}+00000000', 'Child_Update_Trigger_Template_Ref': '{D1F75789-86EE-4187-BF2D-5F05AB9963EF}+0000005B', 'Child_Insert_Trigger_Template_Ref': '{D1F75789-86EE-4187-BF2D-5F05AB9963EF}+0000006F', 'Parent_Update_Trigger_Template_Ref': '{D1F75789-86EE-4187-BF2D-5F05AB9963EF}+0000003E', 'Parent_Delete_Trigger_Template_Ref': '{D1F75789-86EE-4187-BF2D-5F05AB9963EF}+00000048', 'Dependent_Objects_Ref': ['3. Cuenta;1. Party;Party;Individuo;Subtype_Symbol_Party_1444;XIF1Individuo;Codigo Clave Party;R/93;R/93;R/93;R/93;R/93;R/93;R/93;R/93;6. Transaccion;R/93;R/93;7. Campania;8. Solicitud;R/93;R/93;19. Gestion Caso Cliente;R/93;R/93;R/93;R/93;R/93;R/93;R/93;R/93;21. Evaluacion;R/93;R/93;R/93;R/93;'], 'Shapes_Ref': ['R/93;R/93;R/93;R/93;R/93;R/93;R/93;R/93;R/93;R/93;R/93;R/93;R/93;R/93;R/93;R/93;R/93;R/93;R/93;R/93;R/93;R/93;R/93;R/93;']}
+  'R/95' id='{05F9A355-3184-41D0-8393-943C9B10CED7}+00000000' refs={'Owner_Path': 'Modelo de Datos UDV', 'Child_To_Parent_Verb_Phrase': 'un Estado Civil', 'Key_Group_Ref': '{8C84A06D-BC7E-4733-9953-687C6A09A554}+00000000', 'Parent_Update_Rule': 10000, 'Parent_Delete_Rule': 10004, 'Parent_Insert_Rule': 0, 'Child_Update_Rule': 10012, 'Child_Delete_Rule': 0, 'Child_Insert_Rule': 10008, 'Parent_To_Child_Verb_Phrase': 'Persona tiene ', 'Parent_Entity_Ref': '{3DFC929D-477C-44F8-B92C-96B7AA2AFAC7}+00000000', 'Child_Entity_Ref': '{5FE045FE-0E8D-4CCD-A278-EBB578B43F94}+00000000', 'Child_Update_Trigger_Template_Ref': '{D1F75789-86EE-4187-BF2D-5F05AB9963EF}+0000005B', 'Child_Insert_Trigger_Template_Ref': '{D1F75789-86EE-4187-BF2D-5F05AB9963EF}+0000006F', 'Parent_Update_Trigger_Template_Ref': '{D1F75789-86EE-4187-BF2D-5F05AB9963EF}+0000003D', 'Parent_Delete_Trigger_Template_Ref': '{D1F75789-86EE-4187-BF2D-5F05AB9963EF}+00000047', 'Dependent_Objects_Ref': ['1. Party;Individuo;Tipo Estado Civil;XIF2Individuo;Tipo Estado Civil;R/95;R/95;R/95;'], 'Shapes_Ref': ['R/95;R/95;R/95;']}
+  'R/97' id='{1619ECDE-5910-4DB3-B7A8-05B9FAE6B0BE}+00000000' refs={'Owner_Path': 'Modelo de Datos UDV', 'Child_To_Parent_Verb_Phrase': 'una profesion', 'Key_Group_Ref': '{AB40BC55-67B8-4BFE-82BE-EA5F5897B5FC}+00000000', 'Parent_Update_Rule': 10000, 'Parent_Delete_Rule': 10004, 'Parent_Insert_Rule': 0, 'Child_Update_Rule': 10012, 'Child_Delete_Rule': 0, 'Child_Insert_Rule': 10008, 'Parent_To_Child_Verb_Phrase': 'Persona tiene ', 'Parent_Entity_Ref': '{FC969853-384B-4720-927E-E0F828415ED7}+00000000', 'Child_Entity_Ref': '{5FE045FE-0E8D-4CCD-A278-EBB578B43F94}+00000000', 'Child_Update_Trigger_Template_Ref': '{D1F75789-86EE-4187-BF2D-5F05AB9963EF}+0000005B', 'Child_Insert_Trigger_Template_Ref': '{D1F75789-86EE-4187-BF2D-5F05AB9963EF}+0000006F', 'Parent_Update_Trigger_Template_Ref': '{D1F75789-86EE-4187-BF2D-5F05AB9963EF}+0000003D', 'Parent_Delete_Trigger_Template_Ref': '{D1F75789-86EE-4187-BF2D-5F05AB9963EF}+00000047', 'Dependent_Objects_Ref': ['1. Party;Individuo;Tipo Profesion;XIF3Individuo;Tipo Profesion;R/97;R/97;R/97;13. Seguro;R/97;'], 'Shapes_Ref': ['R/97;R/97;R/97;R/97;']}
+  'R/98' id='{38057F0D-37B1-4838-A0DE-6DEC58D66723}+00000000' refs={'Owner_Path': 'Modelo de Datos UDV', 'Child_To_Parent_Verb_Phrase': 'una ocupacion', 'Key_Group_Ref': '{5B96AD3B-0326-4C65-BE24-D123D9D522D2}+00000000', 'Parent_Update_Rule': 10000, 'Parent_Delete_Rule': 10004, 'Parent_Insert_Rule': 0, 'Child_Update_Rule': 10012, 'Child_Delete_Rule': 0, 'Child_Insert_Rule': 10008, 'Parent_To_Child_Verb_Phrase': 'Persona tiene ', 'Parent_Entity_Ref': '{43875269-1002-45A2-BDF7-93DA4804520F}+00000000', 'Child_Entity_Ref': '{5FE045FE-0E8D-4CCD-A278-EBB578B43F94}+00000000', 'Child_Update_Trigger_Template_Ref': '{D1F75789-86EE-4187-BF2D-5F05AB9963EF}+0000005B', 'Child_Insert_Trigger_Template_Ref': '{D1F75789-86EE-4187-BF2D-5F05AB9963EF}+0000006F', 'Parent_Update_Trigger_Template_Ref': '{D1F75789-86EE-4187-BF2D-5F05AB9963EF}+0000003D', 'Parent_Delete_Trigger_Template_Ref': '{D1F75789-86EE-4187-BF2D-5F05AB9963EF}+00000047', 'Dependent_Objects_Ref': ['1. Party;Individuo;Tipo Ocupacion;XIF4Individuo;Tipo Ocupacion;R/98;R/98;R/98;13. Seguro;'], 'Shapes_Ref': ['R/98;R/98;R/98;']}
+  'R/100' id='{2628F7A0-7871-44AD-A62F-78DA1AC66A31}+00000000' refs={'Owner_Path': 'Modelo de Datos UDV', 'Key_Group_Ref': '{567E6D16-67D0-4928-AF70-6C73CE74DE05}+00000000', 'Parent_Update_Rule': 10000, 'Parent_Delete_Rule': 10004, 'Parent_Insert_Rule': 0, 'Child_Update_Rule': 10012, 'Child_Delete_Rule': 0, 'Child_Insert_Rule': 10008, 'Parent_To_Child_Verb_Phrase': 'Persona asume un Rol', 'Parent_Entity_Ref': '{79E1CA34-F847-41AE-B329-92E3CD4BAB8B}+00000000', 'Child_Entity_Ref': '{4345F55B-2E07-4819-9964-A4D46E3064B9}+00000000', 'Child_Update_Trigger_Template_Ref': '{D1F75789-86EE-4187-BF2D-5F05AB9963EF}+0000005B', 'Child_Insert_Trigger_Template_Ref': '{D1F75789-86EE-4187-BF2D-5F05AB9963EF}+0000006F', 'Parent_Update_Trigger_Template_Ref': '{D1F75789-86EE-4187-BF2D-5F05AB9963EF}+0000003D', 'Parent_Delete_Trigger_Template_Ref': '{D1F75789-86EE-4187-BF2D-5F05AB9963EF}+00000047', 'Dependent_Objects_Ref': ['3. Cuenta;1. Party;Party;Party Rol;XIF1Party Rol;Codigo Clave Party;R/100;2. Ubicacion;R/100;R/100;R/100;R/100;R/100;R/100;R/100;R/100;6. Transaccion;R/100;R/100;R/100;7. Campania;8. Solicitud;R/100;10. Garantia;R/100;R/100;R/100;13. Seguro;R/100;R/100;R/100;19. Gestion Caso Cliente;R/100;R/100;R/100;R/100;21. Evaluacion;R/100;R/100;R/100;'], 'Shapes_Ref': ['R/100;R/100;R/100;R/100;R/100;R/100;R/100;R/100;R/100;R/100;R/100;R/100;R/100;R/100;R/100;R/100;R/100;R/100;R/100;R/100;R/100;R/100;R/100;R/100;R/100;R/100;']}
+
+== SUBJECT_AREA ==
+Subject_Area: 27
+  '<Vista Logica Completa>' id='{E71046BB-C94A-4895-824E-7B62626C315A}+00000000' refs={'Owner_Path': "'Modelo de Datos UDV'", 'Dependent_Objects_Ref': 'None', 'Current_ER_Diagram_Ref': "'{30975B1A-9953-4C27-BB38-23091E8476AC}+00000000'"}
+  '3. Cuenta' id='{A46E5918-8C63-47C0-9D53-CA2521036A43}+00000000' refs={'Owner_Path': "'Modelo de Datos UDV'", 'Dependent_Objects_Ref': "'{799A0437-D91A-4CC5-998A-7C23E2130F39}+00000001'", 'Current_ER_Diagram_Ref': "'{E251A45C-8E0F-41F7-9433-2C92F6A530DC}+00000000'", 'Auto_Attached_Objects_Ref': '[1] Subtype_Symbol_Party_1444;R/93;R/100;R/101;R/107;R/109;R/110;R/111;R/112;R/116;R/118;R/121;R/125;R/127;R/129;Subtype_Symbol_Contacto;R/180;R/181;R/182;R/183;R/184;R/186;R/19...', 'User_Attached_Objects_Ref': '[1] Party;Tipo Rol;Party Rol;Cliente;Colaborador;Party Contacto;Contacto;Tipo Estado;Party Identificacion;Tipo Party Identificacion;Pais;Tipo Clasificacion Contacto;Moneda;Agenc...', 'Model_DiagramTab_Order_Ref': '[1] ER_Diagram_5662;Cuenta;Cuenta_Core;Creditos Comerciales;Cuenta Pasivos;Cuenta Credito Personal;Recaudacion Pago;Tarjeta Credito;Cobranza;Cuenta Factoring;Cuenta Sueldo;Docum...'}
+  '1. Party' id='{B6BEDAAB-8C50-4A37-BF93-88ACE729658F}+00000000' refs={'Owner_Path': "'Modelo de Datos UDV'", 'Dependent_Objects_Ref': 'None', 'Current_ER_Diagram_Ref': "'{3A93AD0E-996D-46B5-9C49-3B6FF5650C1D}+00000000'", 'Auto_Attached_Objects_Ref': '[1] Subtype_Symbol_Party_1444;R/93;R/95;R/97;R/98;R/100;R/101;R/105;R/107;R/109;R/110;R/111;R/112;R/113;R/116;R/117;R/118;R/121;R/122;R/124;R/125;R/126;R/127;R/128;R/129;R/130;R...', 'User_Attached_Objects_Ref': '[1] Party;Persona Juridica;Individuo;Tipo Estado Civil;Tipo Profesion;Tipo Ocupacion;Tipo Rol;Party Rol;Cliente;Colaborador;Prospecto;Clasificacion Industria;Party Relacionado;P...', 'Model_DiagramTab_Order_Ref': '[1] Party;Party - Nivel Entidad;Party - Entidades Principales;Party - Estado Financiero;Party - Sistema Financiero SBS;Party - Billetera Digital;Party - Ingresos;Party - Indice ...'}
+  '2. Ubicacion' id='{869420F3-0FD1-49A7-986E-A4D92E809B91}+00000000' refs={'Owner_Path': "'Modelo de Datos UDV'", 'Dependent_Objects_Ref': 'None', 'Current_ER_Diagram_Ref': "'{5C28FC3C-0B58-44FC-B856-45D6696F340F}+00000000'", 'Auto_Attached_Objects_Ref': '[1] R/100;R/101;R/107;R/109;R/111;R/112;R/116;R/125;R/44;R/57;R/58;Subtype_Symbol_Contacto;R/180;R/181;R/182;R/183;R/184;R/186;R/196;R/197;R/198;R/228;R/229;R/230;R/235;R/241;R/...', 'User_Attached_Objects_Ref': '[1] Party Rol;Party Contacto;Contacto;Tipo Estado;Tipo Clasificacion Interna Contacto;Pais;Ubicacion;Direccion;Telefono;Electronico;Departamento;Provincia;Distrito;Postal;Tipo C...', 'Model_DiagramTab_Order_Ref': '[1] Ubicacion;Ubicacion - Nivel Entidad;Ubicacion - Entidades Principales;ER_Diagram_4432;ConfirmacionEMail;'}
+  '5. Producto' id='{3EE96EF0-D076-4DB8-984C-EC08181FDF09}+00000000' refs={'Owner_Path': "'Modelo de Datos UDV'", 'Dependent_Objects_Ref': 'None', 'Current_ER_Diagram_Ref': "'{64133B8F-D936-447F-AE0C-46170C283AA6}+00000000'", 'Auto_Attached_Objects_Ref': '[1] R/107;R/113;R/308;R/321;R/336;R/337;R/338;R/436;R/618;Subtype_Symbol_Producto_10118;R/663;R/678;R/679;R/680;R/681;R/682;R/696;R/697;R/698;R/1996;R/1997;R/1998;', 'User_Attached_Objects_Ref': '[1] Party Relacionado;Tipo Party Relacionado;Producto;Tipo Clasificacion Interna Producto;Cuenta Relacionada;Tipo Cuenta Relacionada;Tipo Organizacion Tarjeta Credito;Bin Tarjet...'}
+
+== DOMAIN ==
+Domain: 52
+  '<root>' id='{D1F75789-86EE-4187-BF2D-5F05AB9963EF}+00000006' {'Column_Comment': '%AttDef'}
+  '<default>' id='{D1F75789-86EE-4187-BF2D-5F05AB9963EF}+00000001' {'Column_Comment': '%AttDef'}
+  'String' id='{D1F75789-86EE-4187-BF2D-5F05AB9963EF}+00000002' {'Column_Comment': '%AttDef'}
+  'Number' id='{D1F75789-86EE-4187-BF2D-5F05AB9963EF}+00000003' {'Definition': '', 'Comment': '', 'Column_Comment': '%AttDef'}
+  'Datetime' id='{D1F75789-86EE-4187-BF2D-5F05AB9963EF}+00000004' {'Column_Comment': '%AttDef'}
+
+== SUPERFICIE COM (muestra) ==
+
+[Entity] miembros del wrapper:
+  dir: CLSID, ClassId, ClassName, CollectProperties, Context, Flags, IsInstanceOf, IsValid, Name, ObjectId, Properties, coclass_clsid
+  properties: ClassId, ClassName, Context, Flags, Name, ObjectId, Properties
+
+[Attribute] miembros del wrapper:
+  dir: CLSID, ClassId, ClassName, CollectProperties, Context, Flags, IsInstanceOf, IsValid, Name, ObjectId, Properties, coclass_clsid
+  properties: ClassId, ClassName, Context, Flags, Name, ObjectId, Properties
+
+[Key_Group] miembros del wrapper:
+  dir: CLSID, ClassId, ClassName, CollectProperties, Context, Flags, IsInstanceOf, IsValid, Name, ObjectId, Properties, coclass_clsid
+  properties: ClassId, ClassName, Context, Flags, Name, ObjectId, Properties
+
+[Key_Group_Member] miembros del wrapper:
+  dir: CLSID, ClassId, ClassName, CollectProperties, Context, Flags, IsInstanceOf, IsValid, Name, ObjectId, Properties, coclass_clsid
+  properties: ClassId, ClassName, Context, Flags, Name, ObjectId, Properties
+
+[Domain] miembros del wrapper:
+  dir: CLSID, ClassId, ClassName, CollectProperties, Context, Flags, IsInstanceOf, IsValid, Name, ObjectId, Properties, coclass_clsid
+  properties: ClassId, ClassName, Context, Flags, Name, ObjectId, Properties
+
+[Subject_Area] miembros del wrapper:
+  dir: CLSID, ClassId, ClassName, CollectProperties, Context, Flags, IsInstanceOf, IsValid, Name, ObjectId, Properties, coclass_clsid
+  properties: ClassId, ClassName, Context, Flags, Name, ObjectId, Properties
+
+[Relationship] miembros del wrapper:
+  dir: CLSID, ClassId, ClassName, CollectProperties, Context, Flags, IsInstanceOf, IsValid, Name, ObjectId, Properties, coclass_clsid
+  properties: ClassId, ClassName, Context, Flags, Name, ObjectId, Properties
+cierre: sesion.Close + Remove
