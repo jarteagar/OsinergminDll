@@ -1,2 +1,12 @@
-python -c "import json; d=json.load(open('modelos/UDV_Modelo_de_Datos_Logico_V0.640.json',encoding='utf-8')); [print(repr(a.get('atributo')),'|',a.get('columna_fisica'),'|pk',a.get('pk'),'|orden',a.get('orden')) for a in d['atributos'] if a.get('entidad')=='Cliente' and a.get('columna_fisica')=='TIPCLASIFCLI']"
-python -c "import json; d=json.load(open('modelos/UDV_Modelo_de_Datos_Logico_V0.640.json',encoding='utf-8')); [print(repr(a.get('atributo')),'|',a.get('columna_fisica')) for a in d['atributos'] if a.get('entidad')=='Party Rol' and a.get('columna_fisica')=='TIPROL']"
+
+'Tipo Clasificacion Cliente' | TIPCLASIFCLI |pk False |orden 4
+'Tipo Clasificacion Cliente' | TIPCLASIFCLI |pk False |orden 25
+'Tipo Clasificacion Cliente' | TIPCLASIFCLI |pk False |orden 4
+'Tipo Clasificacion Cliente' | TIPCLASIFCLI |pk False |orden 4
+'Tipo Clasificacion Cliente' | TIPCLASIFCLI |pk False |orden 4
+'Tipo Clasificacion Cliente' | TIPCLASIFCLI |pk False |orden 25
+'Tipo Clasificacion Cliente' | TIPCLASIFCLI |pk False |orden 25
+
+'Tipo Rol' | TIPROL
+'Tipo Rol' | TIPROL
+'Tipo Rol' | TIPROL
